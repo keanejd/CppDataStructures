@@ -1,0 +1,61 @@
+./testArray
+Zoo size: 7
+
+Animal name: Crawdad Animal age: 36 Animal type: rithvi custArray
+Animal name: Scale insect Animal age: 37 Animal type: brice custArray
+Animal name: Squirrel Animal age: 22 Animal type: katelyn custArray
+Animal name: Fruit bat Animal age: 50 Animal type: caire custArray
+Animal name: Cardinal Animal age: 34 Animal type: trysten custArray
+Animal name: Tree frog Animal age: 21 Animal type: cartier custArray
+Animal name: Alpaca Animal age: 33 Animal type: oday custArray
+
+This is a test of the other print function
+
+Animal name: Crawdad Animal age: 36 Animal type: rithvi array Param custArray
+Animal name: Scale insect Animal age: 37 Animal type: brice array Param custArray
+Animal name: Squirrel Animal age: 22 Animal type: katelyn array Param custArray
+Animal name: Fruit bat Animal age: 50 Animal type: caire array Param custArray
+Animal name: Cardinal Animal age: 34 Animal type: trysten array Param custArray
+Animal name: Tree frog Animal age: 21 Animal type: cartier array Param custArray
+Animal name: Alpaca Animal age: 33 Animal type: oday array Param custArray
+
+Animal name: Alpaca Animal age: 33 Animal type: oday custArray
+Animal name: Scale insect Animal age: 37 Animal type: brice custArray
+Animal name: Squirrel Animal age: 22 Animal type: katelyn custArray
+Animal name: Fruit bat Animal age: 50 Animal type: caire custArray
+Animal name: Cardinal Animal age: 34 Animal type: trysten custArray
+Animal name: Tree frog Animal age: 21 Animal type: cartier custArray
+Animal name: Crawdad Animal age: 36 Animal type: rithvi custArray
+
+Removed: Animal name: Alpaca Animal age: 33 Animal type: oday
+
+Animal name: Scale insect Animal age: 37 Animal type: brice custArray
+Animal name: Squirrel Animal age: 22 Animal type: katelyn custArray
+Animal name: Fruit bat Animal age: 50 Animal type: caire custArray
+Animal name: Cardinal Animal age: 34 Animal type: trysten custArray
+Animal name: Tree frog Animal age: 21 Animal type: cartier custArray
+Animal name: Crawdad Animal age: 36 Animal type: rithvi custArray
+
+Does the array contain removed? 1
+Number of duplicates: 5
+
+Copy at index: 6
+Copy at index: 7
+Copy at index: 8
+Copy at index: 9
+Copy at index: 10
+Animal name: Scale insect Animal age: 37 Animal type: brice custArray
+Animal name: Squirrel Animal age: 22 Animal type: katelyn custArray
+Animal name: Fruit bat Animal age: 50 Animal type: caire custArray
+Animal name: Cardinal Animal age: 34 Animal type: trysten custArray
+Animal name: Tree frog Animal age: 21 Animal type: cartier custArray
+Animal name: Crawdad Animal age: 36 Animal type: rithvi custArray
+
+Animal name: Scale insect Animal age: 37 Animal type: brice custArray
+Animal name: Squirrel Animal age: 22 Animal type: katelyn custArray
+Animal name: Alpaca Animal age: 33 Animal type: oday custArray
+Animal name: Fruit bat Animal age: 50 Animal type: caire custArray
+Animal name: Fruit bat Animal age: 50 Animal type: caire custArray
+Animal name: Cardinal Animal age: 34 Animal type: trysten custArray
+Animal name: Tree frog Animal age: 21 Animal type: cartier custArray
+Animal name: Crawdad Animal age: 36 Animal type: rithvi custArray

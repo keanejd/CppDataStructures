@@ -1,0 +1,185 @@
+------------This is the Que----------------------
+The Queue size is 10
+
+This is a queue of size 10
+0. Animal name: nelia Animal age: 4 Animal type: Xerinae DL-->
+1. Animal name: branton Animal age: 41 Animal type: Arabian leopard DL-->
+2. Animal name: keria Animal age: 3 Animal type: Dragon DL-->
+3. Animal name: chalil Animal age: 26 Animal type: Pheasant DL-->
+4. Animal name: karsyn Animal age: 11 Animal type: Python DL-->
+5. Animal name: vahn Animal age: 46 Animal type: Badger DL-->
+6. Animal name: valora Animal age: 50 Animal type: Tarantula DL-->
+7. Animal name: billy Animal age: 28 Animal type: Fowl DL-->
+8. Animal name: erron Animal age: 42 Animal type: Barracuda DL-->
+9. Animal name: hughes Animal age: 23 Animal type: Tiger DL-->
+The end of the DoubleList of size  10
+
+
+
+------------This is the Stack----------------------
+The Stack size is 10
+
+This is a stack of size 10
+0. Animal name: enok Animal age: 26 Animal type: Toucan DL-->
+1. Animal name: imaan Animal age: 41 Animal type: Woodpecker DL-->
+2. Animal name: jadie Animal age: 6 Animal type: Boa DL-->
+3. Animal name: johndavid Animal age: 7 Animal type: Leopon DL-->
+4. Animal name: michele Animal age: 29 Animal type: Hummingbird DL-->
+5. Animal name: gavin Animal age: 18 Animal type: Blue jay DL-->
+6. Animal name: rhodes Animal age: 18 Animal type: Thrush DL-->
+7. Animal name: island Animal age: 28 Animal type: Turtle DL-->
+8. Animal name: courtland Animal age: 4 Animal type: Saber-toothed cat DL-->
+9. Animal name: dakoda Animal age: 34 Animal type: Cricket DL-->
+The end of the DoubleList of size 10
+
+
+
+At the top of the Stack we have----------> Animal name: enok Animal age: 26 Animal type: Toucan
+At the front of the Queue we have--------> Animal name: nelia Animal age: 4 Animal type: Xerinae
+We popped this value off the Stack----------------> Animal name: enok Animal age: 26 Animal type: Toucan
+We got this value from the front of the Queue ----> Animal name: nelia Animal age: 4 Animal type: Xerinae
+Putting the value--------> Animal name: enok Animal age: 26 Animal type: Toucan--------------> into the Queue 
+ We are pushing ------> Animal name: nelia Animal age: 4 Animal type: Xerinae---------> onto the Stack 
+ ------------This is the Stack----------------------
+The Stack size is 10
+
+This is a stack of size 10
+0. Animal name: nelia Animal age: 4 Animal type: Xerinae DL-->
+1. Animal name: imaan Animal age: 41 Animal type: Woodpecker DL-->
+2. Animal name: jadie Animal age: 6 Animal type: Boa DL-->
+3. Animal name: johndavid Animal age: 7 Animal type: Leopon DL-->
+4. Animal name: michele Animal age: 29 Animal type: Hummingbird DL-->
+5. Animal name: gavin Animal age: 18 Animal type: Blue jay DL-->
+6. Animal name: rhodes Animal age: 18 Animal type: Thrush DL-->
+7. Animal name: island Animal age: 28 Animal type: Turtle DL-->
+8. Animal name: courtland Animal age: 4 Animal type: Saber-toothed cat DL-->
+9. Animal name: dakoda Animal age: 34 Animal type: Cricket DL-->
+The end of the DoubleList of size 10
+
+
+
+------------This is the Que----------------------
+The Queue size is 10
+
+This is a queue of size 10
+0. Animal name: branton Animal age: 41 Animal type: Arabian leopard DL-->
+1. Animal name: keria Animal age: 3 Animal type: Dragon DL-->
+2. Animal name: chalil Animal age: 26 Animal type: Pheasant DL-->
+3. Animal name: karsyn Animal age: 11 Animal type: Python DL-->
+4. Animal name: vahn Animal age: 46 Animal type: Badger DL-->
+5. Animal name: valora Animal age: 50 Animal type: Tarantula DL-->
+6. Animal name: billy Animal age: 28 Animal type: Fowl DL-->
+7. Animal name: erron Animal age: 42 Animal type: Barracuda DL-->
+8. Animal name: hughes Animal age: 23 Animal type: Tiger DL-->
+9. Animal name: enok Animal age: 26 Animal type: Toucan DL-->
+The end of the DoubleList of size  10
+
+
+
+------------This is the List----------------------
+The List size is 20
+
+0. Animal name: hughes Animal age: 23 Animal type: Tiger DL-->
+1. Animal name: erron Animal age: 42 Animal type: Barracuda DL-->
+2. Animal name: billy Animal age: 28 Animal type: Fowl DL-->
+3. Animal name: valora Animal age: 50 Animal type: Tarantula DL-->
+4. Animal name: vahn Animal age: 46 Animal type: Badger DL-->
+5. Animal name: karsyn Animal age: 11 Animal type: Python DL-->
+6. Animal name: chalil Animal age: 26 Animal type: Pheasant DL-->
+7. Animal name: keria Animal age: 3 Animal type: Dragon DL-->
+8. Animal name: branton Animal age: 41 Animal type: Arabian leopard DL-->
+9. Animal name: nelia Animal age: 4 Animal type: Xerinae DL-->
+10. Animal name: enok Animal age: 26 Animal type: Toucan DL-->
+11. Animal name: imaan Animal age: 41 Animal type: Woodpecker DL-->
+12. Animal name: jadie Animal age: 6 Animal type: Boa DL-->
+13. Animal name: johndavid Animal age: 7 Animal type: Leopon DL-->
+14. Animal name: michele Animal age: 29 Animal type: Hummingbird DL-->
+15. Animal name: gavin Animal age: 18 Animal type: Blue jay DL-->
+16. Animal name: rhodes Animal age: 18 Animal type: Thrush DL-->
+17. Animal name: island Animal age: 28 Animal type: Turtle DL-->
+18. Animal name: courtland Animal age: 4 Animal type: Saber-toothed cat DL-->
+19. Animal name: dakoda Animal age: 34 Animal type: Cricket DL-->
+The end of the DoubleList of size  20
+
+
+Finding the index of: Animal name: nelia Animal age: 4 Animal type: Xerinae
+The index is 9
+------------This is the List----------------------
+The List size is 20
+
+0. Animal name: hughes Animal age: 23 Animal type: Tiger DL-->
+1. Animal name: erron Animal age: 42 Animal type: Barracuda DL-->
+2. Animal name: billy Animal age: 28 Animal type: Fowl DL-->
+3. Animal name: valora Animal age: 50 Animal type: Tarantula DL-->
+4. Animal name: vahn Animal age: 46 Animal type: Badger DL-->
+5. Animal name: karsyn Animal age: 11 Animal type: Python DL-->
+6. Animal name: chalil Animal age: 26 Animal type: Pheasant DL-->
+7. Animal name: keria Animal age: 3 Animal type: Dragon DL-->
+8. Animal name: branton Animal age: 41 Animal type: Arabian leopard DL-->
+9. Animal name: nelia Animal age: 4 Animal type: Xerinae DL-->
+10. Animal name: enok Animal age: 26 Animal type: Toucan DL-->
+11. Animal name: imaan Animal age: 41 Animal type: Woodpecker DL-->
+12. Animal name: jadie Animal age: 6 Animal type: Boa DL-->
+13. Animal name: johndavid Animal age: 7 Animal type: Leopon DL-->
+14. Animal name: michele Animal age: 29 Animal type: Hummingbird DL-->
+15. Animal name: gavin Animal age: 18 Animal type: Blue jay DL-->
+16. Animal name: rhodes Animal age: 18 Animal type: Thrush DL-->
+17. Animal name: island Animal age: 28 Animal type: Turtle DL-->
+18. Animal name: courtland Animal age: 4 Animal type: Saber-toothed cat DL-->
+19. Animal name: dakoda Animal age: 34 Animal type: Cricket DL-->
+The end of the DoubleList of size  20
+
+
+Removing ---> Animal name: nelia Animal age: 4 Animal type: Xerinae
+Was the value removed: 1
+Check is Animal name: nelia Animal age: 4 Animal type: Xerinae in the list now:0
+------------This is the List----------------------
+The List size is 19
+
+0. Animal name: hughes Animal age: 23 Animal type: Tiger DL-->
+1. Animal name: erron Animal age: 42 Animal type: Barracuda DL-->
+2. Animal name: billy Animal age: 28 Animal type: Fowl DL-->
+3. Animal name: valora Animal age: 50 Animal type: Tarantula DL-->
+4. Animal name: vahn Animal age: 46 Animal type: Badger DL-->
+5. Animal name: karsyn Animal age: 11 Animal type: Python DL-->
+6. Animal name: chalil Animal age: 26 Animal type: Pheasant DL-->
+7. Animal name: keria Animal age: 3 Animal type: Dragon DL-->
+8. Animal name: branton Animal age: 41 Animal type: Arabian leopard DL-->
+9. Animal name: enok Animal age: 26 Animal type: Toucan DL-->
+10. Animal name: imaan Animal age: 41 Animal type: Woodpecker DL-->
+11. Animal name: jadie Animal age: 6 Animal type: Boa DL-->
+12. Animal name: johndavid Animal age: 7 Animal type: Leopon DL-->
+13. Animal name: michele Animal age: 29 Animal type: Hummingbird DL-->
+14. Animal name: gavin Animal age: 18 Animal type: Blue jay DL-->
+15. Animal name: rhodes Animal age: 18 Animal type: Thrush DL-->
+16. Animal name: island Animal age: 28 Animal type: Turtle DL-->
+17. Animal name: courtland Animal age: 4 Animal type: Saber-toothed cat DL-->
+18. Animal name: dakoda Animal age: 34 Animal type: Cricket DL-->
+The end of the DoubleList of size  19
+
+
+Remvoing the value at index 4 Animal name: vahn Animal age: 46 Animal type: Badger
+------------This is the List----------------------
+The List size is 18
+
+0. Animal name: hughes Animal age: 23 Animal type: Tiger DL-->
+1. Animal name: erron Animal age: 42 Animal type: Barracuda DL-->
+2. Animal name: billy Animal age: 28 Animal type: Fowl DL-->
+3. Animal name: valora Animal age: 50 Animal type: Tarantula DL-->
+4. Animal name: karsyn Animal age: 11 Animal type: Python DL-->
+5. Animal name: chalil Animal age: 26 Animal type: Pheasant DL-->
+6. Animal name: keria Animal age: 3 Animal type: Dragon DL-->
+7. Animal name: branton Animal age: 41 Animal type: Arabian leopard DL-->
+8. Animal name: enok Animal age: 26 Animal type: Toucan DL-->
+9. Animal name: imaan Animal age: 41 Animal type: Woodpecker DL-->
+10. Animal name: jadie Animal age: 6 Animal type: Boa DL-->
+11. Animal name: johndavid Animal age: 7 Animal type: Leopon DL-->
+12. Animal name: michele Animal age: 29 Animal type: Hummingbird DL-->
+13. Animal name: gavin Animal age: 18 Animal type: Blue jay DL-->
+14. Animal name: rhodes Animal age: 18 Animal type: Thrush DL-->
+15. Animal name: island Animal age: 28 Animal type: Turtle DL-->
+16. Animal name: courtland Animal age: 4 Animal type: Saber-toothed cat DL-->
+17. Animal name: dakoda Animal age: 34 Animal type: Cricket DL-->
+The end of the DoubleList of size  18
+
+
