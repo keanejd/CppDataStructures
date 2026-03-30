@@ -1,4 +1,4 @@
-# Java Data Structures & Zoo Package
+# C++ Data Structures
 
 C++  implementations and testing various data structures
 
