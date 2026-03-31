@@ -2,16 +2,16 @@
 The Queue size is 10
 
 This is a queue of size 10
-0. Animal name: masey Animal age: 2 Animal type: Dove Animal priority 425663 DL-->
-1. Animal name: analeigha Animal age: 1 Animal type: Newt Animal priority 81540 DL-->
-2. Animal name: braydee Animal age: 47 Animal type: Sperm whale Animal priority 187561 DL-->
-3. Animal name: duaa Animal age: 49 Animal type: Python Animal priority 265728 DL-->
-4. Animal name: jerick Animal age: 20 Animal type: Caterpillar Animal priority 710578 DL-->
-5. Animal name: jalayla Animal age: 34 Animal type: Capybara Animal priority 864834 DL-->
-6. Animal name: esmay Animal age: 17 Animal type: Basilisk Animal priority 400331 DL-->
-7. Animal name: zuriel Animal age: 37 Animal type: Mountain goat Animal priority 49010 DL-->
-8. Animal name: oyinkansola Animal age: 13 Animal type: Dung beetle Animal priority 615087 DL-->
-9. Animal name: amalie Animal age: 27 Animal type: Otter Animal priority 559863 DL-->
+0. Animal name: averygrace Animal age: 31 Animal type: Blue whale Animal priority 775852 DL-->
+1. Animal name: rett Animal age: 31 Animal type: Chameleon Animal priority 114932 DL-->
+2. Animal name: keron Animal age: 40 Animal type: Bovid Animal priority 30044 DL-->
+3. Animal name: zori Animal age: 38 Animal type: Pheasant Animal priority 58148 DL-->
+4. Animal name: andrielle Animal age: 30 Animal type: Opossum Animal priority 808945 DL-->
+5. Animal name: yara Animal age: 46 Animal type: Shrimp Animal priority 202824 DL-->
+6. Animal name: kamarii Animal age: 33 Animal type: Cod Animal priority 649462 DL-->
+7. Animal name: juniper Animal age: 14 Animal type: Leopon Animal priority 520987 DL-->
+8. Animal name: srihitha Animal age: 30 Animal type: Spider monkey Animal priority 586385 DL-->
+9. Animal name: olaf Animal age: 16 Animal type: Sea lion Animal priority 117675 DL-->
 The end of the DoubleList of size  10
 
 
@@ -20,40 +20,40 @@ The end of the DoubleList of size  10
 The Stack size is 10
 
 This is a stack of size 10
-0. Animal name: zeyad Animal age: 4 Animal type: Mouse Animal priority 410749 DL-->
-1. Animal name: evert Animal age: 23 Animal type: Crow Animal priority 139579 DL-->
-2. Animal name: elaine Animal age: 28 Animal type: Eagle Animal priority 157371 DL-->
-3. Animal name: mcclane Animal age: 35 Animal type: Stork Animal priority 215959 DL-->
-4. Animal name: ellice Animal age: 30 Animal type: Komodo dragon Animal priority 547908 DL-->
-5. Animal name: oliver Animal age: 43 Animal type: Alpaca Animal priority 617488 DL-->
-6. Animal name: ammanuel Animal age: 40 Animal type: Wasp Animal priority 335948 DL-->
-7. Animal name: dalten Animal age: 3 Animal type: Limpet Animal priority 630752 DL-->
-8. Animal name: autum Animal age: 40 Animal type: Anglerfish Animal priority 130603 DL-->
-9. Animal name: sairah Animal age: 29 Animal type: Spider monkey Animal priority 612157 DL-->
+0. Animal name: asani Animal age: 47 Animal type: Sailfish Animal priority 114104 DL-->
+1. Animal name: kimoni Animal age: 2 Animal type: Halibut Animal priority 394625 DL-->
+2. Animal name: thianna Animal age: 47 Animal type: Capybara Animal priority 148156 DL-->
+3. Animal name: paizlei Animal age: 13 Animal type: Bald eagle Animal priority 159886 DL-->
+4. Animal name: airess Animal age: 27 Animal type: Sparrow Animal priority 278742 DL-->
+5. Animal name: jarielys Animal age: 4 Animal type: Vole Animal priority 272725 DL-->
+6. Animal name: avyana Animal age: 38 Animal type: Whippet Animal priority 277164 DL-->
+7. Animal name: trinity Animal age: 27 Animal type: Coral Animal priority 19565 DL-->
+8. Animal name: zoey Animal age: 37 Animal type: Impala Animal priority 53059 DL-->
+9. Animal name: dejohn Animal age: 5 Animal type: Marten Animal priority 5056 DL-->
 The end of the DoubleList of size 10
 
 
 
-At the top of the Stack we have----------> Animal name: zeyad Animal age: 4 Animal type: Mouse Animal priority 410749
-At the front of the Queue we have--------> Animal name: masey Animal age: 2 Animal type: Dove Animal priority 425663
-We popped this value off the Stack----------------> Animal name: zeyad Animal age: 4 Animal type: Mouse Animal priority 410749
-We got this value from the front of the Queue ----> Animal name: masey Animal age: 2 Animal type: Dove Animal priority 425663
-Putting the value--------> Animal name: zeyad Animal age: 4 Animal type: Mouse Animal priority 410749--------------> into the Queue 
- We are pushing ------> Animal name: masey Animal age: 2 Animal type: Dove Animal priority 425663---------> onto the Stack 
+At the top of the Stack we have----------> Animal name: asani Animal age: 47 Animal type: Sailfish Animal priority 114104
+At the front of the Queue we have--------> Animal name: averygrace Animal age: 31 Animal type: Blue whale Animal priority 775852
+We popped this value off the Stack----------------> Animal name: asani Animal age: 47 Animal type: Sailfish Animal priority 114104
+We got this value from the front of the Queue ----> Animal name: averygrace Animal age: 31 Animal type: Blue whale Animal priority 775852
+Putting the value--------> Animal name: asani Animal age: 47 Animal type: Sailfish Animal priority 114104--------------> into the Queue 
+ We are pushing ------> Animal name: averygrace Animal age: 31 Animal type: Blue whale Animal priority 775852---------> onto the Stack 
  ------------This is the Stack----------------------
 The Stack size is 10
 
 This is a stack of size 10
-0. Animal name: masey Animal age: 2 Animal type: Dove Animal priority 425663 DL-->
-1. Animal name: evert Animal age: 23 Animal type: Crow Animal priority 139579 DL-->
-2. Animal name: elaine Animal age: 28 Animal type: Eagle Animal priority 157371 DL-->
-3. Animal name: mcclane Animal age: 35 Animal type: Stork Animal priority 215959 DL-->
-4. Animal name: ellice Animal age: 30 Animal type: Komodo dragon Animal priority 547908 DL-->
-5. Animal name: oliver Animal age: 43 Animal type: Alpaca Animal priority 617488 DL-->
-6. Animal name: ammanuel Animal age: 40 Animal type: Wasp Animal priority 335948 DL-->
-7. Animal name: dalten Animal age: 3 Animal type: Limpet Animal priority 630752 DL-->
-8. Animal name: autum Animal age: 40 Animal type: Anglerfish Animal priority 130603 DL-->
-9. Animal name: sairah Animal age: 29 Animal type: Spider monkey Animal priority 612157 DL-->
+0. Animal name: averygrace Animal age: 31 Animal type: Blue whale Animal priority 775852 DL-->
+1. Animal name: kimoni Animal age: 2 Animal type: Halibut Animal priority 394625 DL-->
+2. Animal name: thianna Animal age: 47 Animal type: Capybara Animal priority 148156 DL-->
+3. Animal name: paizlei Animal age: 13 Animal type: Bald eagle Animal priority 159886 DL-->
+4. Animal name: airess Animal age: 27 Animal type: Sparrow Animal priority 278742 DL-->
+5. Animal name: jarielys Animal age: 4 Animal type: Vole Animal priority 272725 DL-->
+6. Animal name: avyana Animal age: 38 Animal type: Whippet Animal priority 277164 DL-->
+7. Animal name: trinity Animal age: 27 Animal type: Coral Animal priority 19565 DL-->
+8. Animal name: zoey Animal age: 37 Animal type: Impala Animal priority 53059 DL-->
+9. Animal name: dejohn Animal age: 5 Animal type: Marten Animal priority 5056 DL-->
 The end of the DoubleList of size 10
 
 
@@ -62,16 +62,16 @@ The end of the DoubleList of size 10
 The Queue size is 10
 
 This is a queue of size 10
-0. Animal name: analeigha Animal age: 1 Animal type: Newt Animal priority 81540 DL-->
-1. Animal name: braydee Animal age: 47 Animal type: Sperm whale Animal priority 187561 DL-->
-2. Animal name: duaa Animal age: 49 Animal type: Python Animal priority 265728 DL-->
-3. Animal name: jerick Animal age: 20 Animal type: Caterpillar Animal priority 710578 DL-->
-4. Animal name: jalayla Animal age: 34 Animal type: Capybara Animal priority 864834 DL-->
-5. Animal name: esmay Animal age: 17 Animal type: Basilisk Animal priority 400331 DL-->
-6. Animal name: zuriel Animal age: 37 Animal type: Mountain goat Animal priority 49010 DL-->
-7. Animal name: oyinkansola Animal age: 13 Animal type: Dung beetle Animal priority 615087 DL-->
-8. Animal name: amalie Animal age: 27 Animal type: Otter Animal priority 559863 DL-->
-9. Animal name: zeyad Animal age: 4 Animal type: Mouse Animal priority 410749 DL-->
+0. Animal name: rett Animal age: 31 Animal type: Chameleon Animal priority 114932 DL-->
+1. Animal name: keron Animal age: 40 Animal type: Bovid Animal priority 30044 DL-->
+2. Animal name: zori Animal age: 38 Animal type: Pheasant Animal priority 58148 DL-->
+3. Animal name: andrielle Animal age: 30 Animal type: Opossum Animal priority 808945 DL-->
+4. Animal name: yara Animal age: 46 Animal type: Shrimp Animal priority 202824 DL-->
+5. Animal name: kamarii Animal age: 33 Animal type: Cod Animal priority 649462 DL-->
+6. Animal name: juniper Animal age: 14 Animal type: Leopon Animal priority 520987 DL-->
+7. Animal name: srihitha Animal age: 30 Animal type: Spider monkey Animal priority 586385 DL-->
+8. Animal name: olaf Animal age: 16 Animal type: Sea lion Animal priority 117675 DL-->
+9. Animal name: asani Animal age: 47 Animal type: Sailfish Animal priority 114104 DL-->
 The end of the DoubleList of size  10
 
 
@@ -79,107 +79,107 @@ The end of the DoubleList of size  10
 ------------This is the List----------------------
 The List size is 20
 
-0. Animal name: amalie Animal age: 27 Animal type: Otter Animal priority 559863 DL-->
-1. Animal name: oyinkansola Animal age: 13 Animal type: Dung beetle Animal priority 615087 DL-->
-2. Animal name: zuriel Animal age: 37 Animal type: Mountain goat Animal priority 49010 DL-->
-3. Animal name: esmay Animal age: 17 Animal type: Basilisk Animal priority 400331 DL-->
-4. Animal name: jalayla Animal age: 34 Animal type: Capybara Animal priority 864834 DL-->
-5. Animal name: jerick Animal age: 20 Animal type: Caterpillar Animal priority 710578 DL-->
-6. Animal name: duaa Animal age: 49 Animal type: Python Animal priority 265728 DL-->
-7. Animal name: braydee Animal age: 47 Animal type: Sperm whale Animal priority 187561 DL-->
-8. Animal name: analeigha Animal age: 1 Animal type: Newt Animal priority 81540 DL-->
-9. Animal name: masey Animal age: 2 Animal type: Dove Animal priority 425663 DL-->
-10. Animal name: zeyad Animal age: 4 Animal type: Mouse Animal priority 410749 DL-->
-11. Animal name: evert Animal age: 23 Animal type: Crow Animal priority 139579 DL-->
-12. Animal name: elaine Animal age: 28 Animal type: Eagle Animal priority 157371 DL-->
-13. Animal name: mcclane Animal age: 35 Animal type: Stork Animal priority 215959 DL-->
-14. Animal name: ellice Animal age: 30 Animal type: Komodo dragon Animal priority 547908 DL-->
-15. Animal name: oliver Animal age: 43 Animal type: Alpaca Animal priority 617488 DL-->
-16. Animal name: ammanuel Animal age: 40 Animal type: Wasp Animal priority 335948 DL-->
-17. Animal name: dalten Animal age: 3 Animal type: Limpet Animal priority 630752 DL-->
-18. Animal name: autum Animal age: 40 Animal type: Anglerfish Animal priority 130603 DL-->
-19. Animal name: sairah Animal age: 29 Animal type: Spider monkey Animal priority 612157 DL-->
+0. Animal name: olaf Animal age: 16 Animal type: Sea lion Animal priority 117675 DL-->
+1. Animal name: srihitha Animal age: 30 Animal type: Spider monkey Animal priority 586385 DL-->
+2. Animal name: juniper Animal age: 14 Animal type: Leopon Animal priority 520987 DL-->
+3. Animal name: kamarii Animal age: 33 Animal type: Cod Animal priority 649462 DL-->
+4. Animal name: yara Animal age: 46 Animal type: Shrimp Animal priority 202824 DL-->
+5. Animal name: andrielle Animal age: 30 Animal type: Opossum Animal priority 808945 DL-->
+6. Animal name: zori Animal age: 38 Animal type: Pheasant Animal priority 58148 DL-->
+7. Animal name: keron Animal age: 40 Animal type: Bovid Animal priority 30044 DL-->
+8. Animal name: rett Animal age: 31 Animal type: Chameleon Animal priority 114932 DL-->
+9. Animal name: averygrace Animal age: 31 Animal type: Blue whale Animal priority 775852 DL-->
+10. Animal name: asani Animal age: 47 Animal type: Sailfish Animal priority 114104 DL-->
+11. Animal name: kimoni Animal age: 2 Animal type: Halibut Animal priority 394625 DL-->
+12. Animal name: thianna Animal age: 47 Animal type: Capybara Animal priority 148156 DL-->
+13. Animal name: paizlei Animal age: 13 Animal type: Bald eagle Animal priority 159886 DL-->
+14. Animal name: airess Animal age: 27 Animal type: Sparrow Animal priority 278742 DL-->
+15. Animal name: jarielys Animal age: 4 Animal type: Vole Animal priority 272725 DL-->
+16. Animal name: avyana Animal age: 38 Animal type: Whippet Animal priority 277164 DL-->
+17. Animal name: trinity Animal age: 27 Animal type: Coral Animal priority 19565 DL-->
+18. Animal name: zoey Animal age: 37 Animal type: Impala Animal priority 53059 DL-->
+19. Animal name: dejohn Animal age: 5 Animal type: Marten Animal priority 5056 DL-->
 The end of the DoubleList of size  20
 
 
-Finding the index of: Animal name: masey Animal age: 2 Animal type: Dove Animal priority 425663
+Finding the index of: Animal name: averygrace Animal age: 31 Animal type: Blue whale Animal priority 775852
 The index is 9
 ------------This is the List----------------------
 The List size is 20
 
-0. Animal name: amalie Animal age: 27 Animal type: Otter Animal priority 559863 DL-->
-1. Animal name: oyinkansola Animal age: 13 Animal type: Dung beetle Animal priority 615087 DL-->
-2. Animal name: zuriel Animal age: 37 Animal type: Mountain goat Animal priority 49010 DL-->
-3. Animal name: esmay Animal age: 17 Animal type: Basilisk Animal priority 400331 DL-->
-4. Animal name: jalayla Animal age: 34 Animal type: Capybara Animal priority 864834 DL-->
-5. Animal name: jerick Animal age: 20 Animal type: Caterpillar Animal priority 710578 DL-->
-6. Animal name: duaa Animal age: 49 Animal type: Python Animal priority 265728 DL-->
-7. Animal name: braydee Animal age: 47 Animal type: Sperm whale Animal priority 187561 DL-->
-8. Animal name: analeigha Animal age: 1 Animal type: Newt Animal priority 81540 DL-->
-9. Animal name: masey Animal age: 2 Animal type: Dove Animal priority 425663 DL-->
-10. Animal name: zeyad Animal age: 4 Animal type: Mouse Animal priority 410749 DL-->
-11. Animal name: evert Animal age: 23 Animal type: Crow Animal priority 139579 DL-->
-12. Animal name: elaine Animal age: 28 Animal type: Eagle Animal priority 157371 DL-->
-13. Animal name: mcclane Animal age: 35 Animal type: Stork Animal priority 215959 DL-->
-14. Animal name: ellice Animal age: 30 Animal type: Komodo dragon Animal priority 547908 DL-->
-15. Animal name: oliver Animal age: 43 Animal type: Alpaca Animal priority 617488 DL-->
-16. Animal name: ammanuel Animal age: 40 Animal type: Wasp Animal priority 335948 DL-->
-17. Animal name: dalten Animal age: 3 Animal type: Limpet Animal priority 630752 DL-->
-18. Animal name: autum Animal age: 40 Animal type: Anglerfish Animal priority 130603 DL-->
-19. Animal name: sairah Animal age: 29 Animal type: Spider monkey Animal priority 612157 DL-->
+0. Animal name: olaf Animal age: 16 Animal type: Sea lion Animal priority 117675 DL-->
+1. Animal name: srihitha Animal age: 30 Animal type: Spider monkey Animal priority 586385 DL-->
+2. Animal name: juniper Animal age: 14 Animal type: Leopon Animal priority 520987 DL-->
+3. Animal name: kamarii Animal age: 33 Animal type: Cod Animal priority 649462 DL-->
+4. Animal name: yara Animal age: 46 Animal type: Shrimp Animal priority 202824 DL-->
+5. Animal name: andrielle Animal age: 30 Animal type: Opossum Animal priority 808945 DL-->
+6. Animal name: zori Animal age: 38 Animal type: Pheasant Animal priority 58148 DL-->
+7. Animal name: keron Animal age: 40 Animal type: Bovid Animal priority 30044 DL-->
+8. Animal name: rett Animal age: 31 Animal type: Chameleon Animal priority 114932 DL-->
+9. Animal name: averygrace Animal age: 31 Animal type: Blue whale Animal priority 775852 DL-->
+10. Animal name: asani Animal age: 47 Animal type: Sailfish Animal priority 114104 DL-->
+11. Animal name: kimoni Animal age: 2 Animal type: Halibut Animal priority 394625 DL-->
+12. Animal name: thianna Animal age: 47 Animal type: Capybara Animal priority 148156 DL-->
+13. Animal name: paizlei Animal age: 13 Animal type: Bald eagle Animal priority 159886 DL-->
+14. Animal name: airess Animal age: 27 Animal type: Sparrow Animal priority 278742 DL-->
+15. Animal name: jarielys Animal age: 4 Animal type: Vole Animal priority 272725 DL-->
+16. Animal name: avyana Animal age: 38 Animal type: Whippet Animal priority 277164 DL-->
+17. Animal name: trinity Animal age: 27 Animal type: Coral Animal priority 19565 DL-->
+18. Animal name: zoey Animal age: 37 Animal type: Impala Animal priority 53059 DL-->
+19. Animal name: dejohn Animal age: 5 Animal type: Marten Animal priority 5056 DL-->
 The end of the DoubleList of size  20
 
 
-Removing ---> Animal name: masey Animal age: 2 Animal type: Dove Animal priority 425663
+Removing ---> Animal name: averygrace Animal age: 31 Animal type: Blue whale Animal priority 775852
 Was the value removed: 1
-Check is Animal name: masey Animal age: 2 Animal type: Dove Animal priority 425663 in the list now:0
+Check is Animal name: averygrace Animal age: 31 Animal type: Blue whale Animal priority 775852 in the list now:0
 ------------This is the List----------------------
 The List size is 19
 
-0. Animal name: amalie Animal age: 27 Animal type: Otter Animal priority 559863 DL-->
-1. Animal name: oyinkansola Animal age: 13 Animal type: Dung beetle Animal priority 615087 DL-->
-2. Animal name: zuriel Animal age: 37 Animal type: Mountain goat Animal priority 49010 DL-->
-3. Animal name: esmay Animal age: 17 Animal type: Basilisk Animal priority 400331 DL-->
-4. Animal name: jalayla Animal age: 34 Animal type: Capybara Animal priority 864834 DL-->
-5. Animal name: jerick Animal age: 20 Animal type: Caterpillar Animal priority 710578 DL-->
-6. Animal name: duaa Animal age: 49 Animal type: Python Animal priority 265728 DL-->
-7. Animal name: braydee Animal age: 47 Animal type: Sperm whale Animal priority 187561 DL-->
-8. Animal name: analeigha Animal age: 1 Animal type: Newt Animal priority 81540 DL-->
-9. Animal name: zeyad Animal age: 4 Animal type: Mouse Animal priority 410749 DL-->
-10. Animal name: evert Animal age: 23 Animal type: Crow Animal priority 139579 DL-->
-11. Animal name: elaine Animal age: 28 Animal type: Eagle Animal priority 157371 DL-->
-12. Animal name: mcclane Animal age: 35 Animal type: Stork Animal priority 215959 DL-->
-13. Animal name: ellice Animal age: 30 Animal type: Komodo dragon Animal priority 547908 DL-->
-14. Animal name: oliver Animal age: 43 Animal type: Alpaca Animal priority 617488 DL-->
-15. Animal name: ammanuel Animal age: 40 Animal type: Wasp Animal priority 335948 DL-->
-16. Animal name: dalten Animal age: 3 Animal type: Limpet Animal priority 630752 DL-->
-17. Animal name: autum Animal age: 40 Animal type: Anglerfish Animal priority 130603 DL-->
-18. Animal name: sairah Animal age: 29 Animal type: Spider monkey Animal priority 612157 DL-->
+0. Animal name: olaf Animal age: 16 Animal type: Sea lion Animal priority 117675 DL-->
+1. Animal name: srihitha Animal age: 30 Animal type: Spider monkey Animal priority 586385 DL-->
+2. Animal name: juniper Animal age: 14 Animal type: Leopon Animal priority 520987 DL-->
+3. Animal name: kamarii Animal age: 33 Animal type: Cod Animal priority 649462 DL-->
+4. Animal name: yara Animal age: 46 Animal type: Shrimp Animal priority 202824 DL-->
+5. Animal name: andrielle Animal age: 30 Animal type: Opossum Animal priority 808945 DL-->
+6. Animal name: zori Animal age: 38 Animal type: Pheasant Animal priority 58148 DL-->
+7. Animal name: keron Animal age: 40 Animal type: Bovid Animal priority 30044 DL-->
+8. Animal name: rett Animal age: 31 Animal type: Chameleon Animal priority 114932 DL-->
+9. Animal name: asani Animal age: 47 Animal type: Sailfish Animal priority 114104 DL-->
+10. Animal name: kimoni Animal age: 2 Animal type: Halibut Animal priority 394625 DL-->
+11. Animal name: thianna Animal age: 47 Animal type: Capybara Animal priority 148156 DL-->
+12. Animal name: paizlei Animal age: 13 Animal type: Bald eagle Animal priority 159886 DL-->
+13. Animal name: airess Animal age: 27 Animal type: Sparrow Animal priority 278742 DL-->
+14. Animal name: jarielys Animal age: 4 Animal type: Vole Animal priority 272725 DL-->
+15. Animal name: avyana Animal age: 38 Animal type: Whippet Animal priority 277164 DL-->
+16. Animal name: trinity Animal age: 27 Animal type: Coral Animal priority 19565 DL-->
+17. Animal name: zoey Animal age: 37 Animal type: Impala Animal priority 53059 DL-->
+18. Animal name: dejohn Animal age: 5 Animal type: Marten Animal priority 5056 DL-->
 The end of the DoubleList of size  19
 
 
-Remvoing the value at index 4 Animal name: jalayla Animal age: 34 Animal type: Capybara Animal priority 864834
+Remvoing the value at index 4 Animal name: yara Animal age: 46 Animal type: Shrimp Animal priority 202824
 ------------This is the List----------------------
 The List size is 18
 
-0. Animal name: amalie Animal age: 27 Animal type: Otter Animal priority 559863 DL-->
-1. Animal name: oyinkansola Animal age: 13 Animal type: Dung beetle Animal priority 615087 DL-->
-2. Animal name: zuriel Animal age: 37 Animal type: Mountain goat Animal priority 49010 DL-->
-3. Animal name: esmay Animal age: 17 Animal type: Basilisk Animal priority 400331 DL-->
-4. Animal name: jerick Animal age: 20 Animal type: Caterpillar Animal priority 710578 DL-->
-5. Animal name: duaa Animal age: 49 Animal type: Python Animal priority 265728 DL-->
-6. Animal name: braydee Animal age: 47 Animal type: Sperm whale Animal priority 187561 DL-->
-7. Animal name: analeigha Animal age: 1 Animal type: Newt Animal priority 81540 DL-->
-8. Animal name: zeyad Animal age: 4 Animal type: Mouse Animal priority 410749 DL-->
-9. Animal name: evert Animal age: 23 Animal type: Crow Animal priority 139579 DL-->
-10. Animal name: elaine Animal age: 28 Animal type: Eagle Animal priority 157371 DL-->
-11. Animal name: mcclane Animal age: 35 Animal type: Stork Animal priority 215959 DL-->
-12. Animal name: ellice Animal age: 30 Animal type: Komodo dragon Animal priority 547908 DL-->
-13. Animal name: oliver Animal age: 43 Animal type: Alpaca Animal priority 617488 DL-->
-14. Animal name: ammanuel Animal age: 40 Animal type: Wasp Animal priority 335948 DL-->
-15. Animal name: dalten Animal age: 3 Animal type: Limpet Animal priority 630752 DL-->
-16. Animal name: autum Animal age: 40 Animal type: Anglerfish Animal priority 130603 DL-->
-17. Animal name: sairah Animal age: 29 Animal type: Spider monkey Animal priority 612157 DL-->
+0. Animal name: olaf Animal age: 16 Animal type: Sea lion Animal priority 117675 DL-->
+1. Animal name: srihitha Animal age: 30 Animal type: Spider monkey Animal priority 586385 DL-->
+2. Animal name: juniper Animal age: 14 Animal type: Leopon Animal priority 520987 DL-->
+3. Animal name: kamarii Animal age: 33 Animal type: Cod Animal priority 649462 DL-->
+4. Animal name: andrielle Animal age: 30 Animal type: Opossum Animal priority 808945 DL-->
+5. Animal name: zori Animal age: 38 Animal type: Pheasant Animal priority 58148 DL-->
+6. Animal name: keron Animal age: 40 Animal type: Bovid Animal priority 30044 DL-->
+7. Animal name: rett Animal age: 31 Animal type: Chameleon Animal priority 114932 DL-->
+8. Animal name: asani Animal age: 47 Animal type: Sailfish Animal priority 114104 DL-->
+9. Animal name: kimoni Animal age: 2 Animal type: Halibut Animal priority 394625 DL-->
+10. Animal name: thianna Animal age: 47 Animal type: Capybara Animal priority 148156 DL-->
+11. Animal name: paizlei Animal age: 13 Animal type: Bald eagle Animal priority 159886 DL-->
+12. Animal name: airess Animal age: 27 Animal type: Sparrow Animal priority 278742 DL-->
+13. Animal name: jarielys Animal age: 4 Animal type: Vole Animal priority 272725 DL-->
+14. Animal name: avyana Animal age: 38 Animal type: Whippet Animal priority 277164 DL-->
+15. Animal name: trinity Animal age: 27 Animal type: Coral Animal priority 19565 DL-->
+16. Animal name: zoey Animal age: 37 Animal type: Impala Animal priority 53059 DL-->
+17. Animal name: dejohn Animal age: 5 Animal type: Marten Animal priority 5056 DL-->
 The end of the DoubleList of size  18
 
 
