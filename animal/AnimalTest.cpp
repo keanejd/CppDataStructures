@@ -68,7 +68,8 @@ void AnimalTest::fillZoo(int _numAnimals, int _minAge, int _maxAge) {
     zoo = new Animal[_numAnimals];
     size = _numAnimals;
     for(int i = 0; i < _numAnimals; i++)
-        zoo[i] = Animal(chooseName(), randomNumber(_minAge, _maxAge), chooseType());
+        zoo[i] = Animal(chooseName(), randomNumber(_minAge, _maxAge)
+    , chooseType(), randomNumber(0, PRIORITY_RANGE));
 }
 
 

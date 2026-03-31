@@ -6,7 +6,7 @@
 class AnimalTest {
 
 private:
-
+    static constexpr int PRIORITY_RANGE = 1000000;
     std::string* animalNames;
     std::string* animalTypes;
     int nameCount;
