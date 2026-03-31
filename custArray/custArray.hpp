@@ -11,6 +11,43 @@ private:
         T* temp;
         T* array;
 
+    void mergeSort( int _left, int _right){
+        if(_left >= _right) return;
+
+        int mid = (_left + _right) / 2;
+
+        mergeSort(_left, mid);
+        mergeSort(mid+1, _right);
+        merge(_left, mid, _right);
+    }
+
+    void merge( int _left, int _mid, int _right) {
+        int leftSize = _mid -_left + 1;
+        int rightSize = _right -_mid;
+
+        T* leftArr = new T[leftSize];
+        T* rightArr = new T[rightSize];
+
+        for(int i = 0; i < leftSize; i++) leftArr[i] = array[_left+i];
+
+        for(int i = 0; i < rightSize; i++) rightArr[i] = array[_mid+1+i];
+
+        int i = 0, j = 0, k = _left;
+
+        while(i < leftSize && j < rightSize) {
+            if(leftArr[i] < rightArr[j] )
+                array[k++] = leftArr[i++];
+            else 
+                array[k++] = rightArr[j++];
+        }
+
+        while(i < leftSize) array[k++] = leftArr[i++];
+        while(j < rightSize) array[k++] = rightArr[j++];
+
+        delete [] leftArr;
+        delete [] rightArr;
+    }
+
 
 
 public:
@@ -194,6 +231,10 @@ public:
         T* result;
         while((result = removeElement(_data)) != nullptr)
             delete result;
+    }
+
+    void sort() {
+        mergeSort(0, tailPtr-1);
     }
 
 };

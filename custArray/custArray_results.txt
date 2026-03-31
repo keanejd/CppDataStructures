@@ -1,117 +1,138 @@
 We are filling the Array with this many elements: 7
+We are filling the Array with this many elements: 15
 
 The array size is 14 The tail pointer is at 7
-Animal name: nelia Animal age: 4 Animal type: Xerinae custArray
-Animal name: branton Animal age: 41 Animal type: Arabian leopard custArray
-Animal name: keria Animal age: 3 Animal type: Dragon custArray
-Animal name: chalil Animal age: 26 Animal type: Pheasant custArray
-Animal name: karsyn Animal age: 11 Animal type: Python custArray
-Animal name: vahn Animal age: 46 Animal type: Badger custArray
-Animal name: valora Animal age: 50 Animal type: Tarantula custArray
+Animal name: miki Animal age: 27 Animal type: Shrew Animal priority 570528 custArray
+Animal name: chaos Animal age: 18 Animal type: Anteater Animal priority 820430 custArray
+Animal name: abbot Animal age: 2 Animal type: Water buffalo Animal priority 674802 custArray
+Animal name: kallel Animal age: 1 Animal type: Tarsier Animal priority 903652 custArray
+Animal name: zadquiel Animal age: 38 Animal type: Bear Animal priority 286755 custArray
+Animal name: melaney Animal age: 35 Animal type: Peregrine falcon Animal priority 618553 custArray
+Animal name: ahana Animal age: 25 Animal type: Crab Animal priority 500219 custArray
 
 
 The array size is 14 The tail pointer is at 7OVERLOADED
-Animal name: nelia Animal age: 4 Animal type: Xerinae array Param custArray
-Animal name: branton Animal age: 41 Animal type: Arabian leopard array Param custArray
-Animal name: keria Animal age: 3 Animal type: Dragon array Param custArray
-Animal name: chalil Animal age: 26 Animal type: Pheasant array Param custArray
-Animal name: karsyn Animal age: 11 Animal type: Python array Param custArray
-Animal name: vahn Animal age: 46 Animal type: Badger array Param custArray
-Animal name: valora Animal age: 50 Animal type: Tarantula array Param custArray
-Animal name: billy Animal age: 28 Animal type: Fowl array Param custArray
-Animal name: erron Animal age: 42 Animal type: Barracuda array Param custArray
-Animal name: hughes Animal age: 23 Animal type: Tiger array Param custArray
-Animal name: dakoda Animal age: 34 Animal type: Cricket array Param custArray
-Animal name: courtland Animal age: 4 Animal type: Saber-toothed cat array Param custArray
-Animal name: island Animal age: 28 Animal type: Turtle array Param custArray
-Animal name: rhodes Animal age: 18 Animal type: Thrush array Param custArray
-Animal name: gavin Animal age: 18 Animal type: Blue jay array Param custArray
+Animal name: miki Animal age: 27 Animal type: Shrew Animal priority 570528 array Param custArray
+Animal name: chaos Animal age: 18 Animal type: Anteater Animal priority 820430 array Param custArray
+Animal name: abbot Animal age: 2 Animal type: Water buffalo Animal priority 674802 array Param custArray
+Animal name: kallel Animal age: 1 Animal type: Tarsier Animal priority 903652 array Param custArray
+Animal name: zadquiel Animal age: 38 Animal type: Bear Animal priority 286755 array Param custArray
+Animal name: melaney Animal age: 35 Animal type: Peregrine falcon Animal priority 618553 array Param custArray
+Animal name: ahana Animal age: 25 Animal type: Crab Animal priority 500219 array Param custArray
+Animal name: lavaya Animal age: 3 Animal type: Humpback whale Animal priority 263072 array Param custArray
+Animal name: stormee Animal age: 42 Animal type: Louse Animal priority 475845 array Param custArray
+Animal name: kolden Animal age: 15 Animal type: Moth Animal priority 419114 array Param custArray
+Animal name: henry Animal age: 6 Animal type: Horse Animal priority 913253 array Param custArray
+Animal name: mac Animal age: 34 Animal type: Salmon Animal priority 103606 array Param custArray
+Animal name: reagyn Animal age: 25 Animal type: Ray (Rajiformes) Animal priority 635345 array Param custArray
+Animal name: saba Animal age: 40 Animal type: Cicada Animal priority 739605 array Param custArray
+Animal name: karri Animal age: 43 Animal type: Ocelot Animal priority 308650 array Param custArray
 
 -----------------Testing the swap function----------------------
 Before the swap
 
 The array size is 14 The tail pointer is at 7
-Animal name: nelia Animal age: 4 Animal type: Xerinae custArray
-Animal name: branton Animal age: 41 Animal type: Arabian leopard custArray
-Animal name: keria Animal age: 3 Animal type: Dragon custArray
-Animal name: chalil Animal age: 26 Animal type: Pheasant custArray
-Animal name: karsyn Animal age: 11 Animal type: Python custArray
-Animal name: vahn Animal age: 46 Animal type: Badger custArray
-Animal name: valora Animal age: 50 Animal type: Tarantula custArray
+Animal name: miki Animal age: 27 Animal type: Shrew Animal priority 570528 custArray
+Animal name: chaos Animal age: 18 Animal type: Anteater Animal priority 820430 custArray
+Animal name: abbot Animal age: 2 Animal type: Water buffalo Animal priority 674802 custArray
+Animal name: kallel Animal age: 1 Animal type: Tarsier Animal priority 903652 custArray
+Animal name: zadquiel Animal age: 38 Animal type: Bear Animal priority 286755 custArray
+Animal name: melaney Animal age: 35 Animal type: Peregrine falcon Animal priority 618553 custArray
+Animal name: ahana Animal age: 25 Animal type: Crab Animal priority 500219 custArray
 
 After the swap
 
 The array size is 14 The tail pointer is at 7
-Animal name: valora Animal age: 50 Animal type: Tarantula custArray
-Animal name: branton Animal age: 41 Animal type: Arabian leopard custArray
-Animal name: keria Animal age: 3 Animal type: Dragon custArray
-Animal name: chalil Animal age: 26 Animal type: Pheasant custArray
-Animal name: karsyn Animal age: 11 Animal type: Python custArray
-Animal name: vahn Animal age: 46 Animal type: Badger custArray
-Animal name: nelia Animal age: 4 Animal type: Xerinae custArray
+Animal name: ahana Animal age: 25 Animal type: Crab Animal priority 500219 custArray
+Animal name: chaos Animal age: 18 Animal type: Anteater Animal priority 820430 custArray
+Animal name: abbot Animal age: 2 Animal type: Water buffalo Animal priority 674802 custArray
+Animal name: kallel Animal age: 1 Animal type: Tarsier Animal priority 903652 custArray
+Animal name: zadquiel Animal age: 38 Animal type: Bear Animal priority 286755 custArray
+Animal name: melaney Animal age: 35 Animal type: Peregrine falcon Animal priority 618553 custArray
+Animal name: miki Animal age: 27 Animal type: Shrew Animal priority 570528 custArray
 
 -----------------Testing the remove function----------------------
 
-The removed element is: Animal name: valora Animal age: 50 Animal type: Tarantula
+The removed element is: Animal name: ahana Animal age: 25 Animal type: Crab Animal priority 500219
 
 The array size is 7 The tail pointer is at 6
-Animal name: branton Animal age: 41 Animal type: Arabian leopard custArray
-Animal name: keria Animal age: 3 Animal type: Dragon custArray
-Animal name: chalil Animal age: 26 Animal type: Pheasant custArray
-Animal name: karsyn Animal age: 11 Animal type: Python custArray
-Animal name: vahn Animal age: 46 Animal type: Badger custArray
-Animal name: nelia Animal age: 4 Animal type: Xerinae custArray
+Animal name: chaos Animal age: 18 Animal type: Anteater Animal priority 820430 custArray
+Animal name: abbot Animal age: 2 Animal type: Water buffalo Animal priority 674802 custArray
+Animal name: kallel Animal age: 1 Animal type: Tarsier Animal priority 903652 custArray
+Animal name: zadquiel Animal age: 38 Animal type: Bear Animal priority 286755 custArray
+Animal name: melaney Animal age: 35 Animal type: Peregrine falcon Animal priority 618553 custArray
+Animal name: miki Animal age: 27 Animal type: Shrew Animal priority 570528 custArray
 
 -----------------Testing the add duplicates function----------------------
 
 The array size is 28 The tail pointer is at 21
-Animal name: branton Animal age: 41 Animal type: Arabian leopard custArray
-Animal name: keria Animal age: 3 Animal type: Dragon custArray
-Animal name: chalil Animal age: 26 Animal type: Pheasant custArray
-Animal name: karsyn Animal age: 11 Animal type: Python custArray
-Animal name: vahn Animal age: 46 Animal type: Badger custArray
-Animal name: nelia Animal age: 4 Animal type: Xerinae custArray
-Animal name: karsyn Animal age: 11 Animal type: Python custArray
-Animal name: erron Animal age: 42 Animal type: Barracuda custArray
-Animal name: keria Animal age: 3 Animal type: Dragon custArray
-Animal name: billy Animal age: 28 Animal type: Fowl custArray
-Animal name: branton Animal age: 41 Animal type: Arabian leopard custArray
-Animal name: valora Animal age: 50 Animal type: Tarantula custArray
-Animal name: valora Animal age: 50 Animal type: Tarantula custArray
-Animal name: vahn Animal age: 46 Animal type: Badger custArray
-Animal name: karsyn Animal age: 11 Animal type: Python custArray
-Animal name: erron Animal age: 42 Animal type: Barracuda custArray
-Animal name: vahn Animal age: 46 Animal type: Badger custArray
-Animal name: billy Animal age: 28 Animal type: Fowl custArray
-Animal name: erron Animal age: 42 Animal type: Barracuda custArray
-Animal name: dakoda Animal age: 34 Animal type: Cricket custArray
-Animal name: hughes Animal age: 23 Animal type: Tiger custArray
+Animal name: chaos Animal age: 18 Animal type: Anteater Animal priority 820430 custArray
+Animal name: abbot Animal age: 2 Animal type: Water buffalo Animal priority 674802 custArray
+Animal name: kallel Animal age: 1 Animal type: Tarsier Animal priority 903652 custArray
+Animal name: zadquiel Animal age: 38 Animal type: Bear Animal priority 286755 custArray
+Animal name: melaney Animal age: 35 Animal type: Peregrine falcon Animal priority 618553 custArray
+Animal name: miki Animal age: 27 Animal type: Shrew Animal priority 570528 custArray
+Animal name: stormee Animal age: 42 Animal type: Louse Animal priority 475845 custArray
+Animal name: kolden Animal age: 15 Animal type: Moth Animal priority 419114 custArray
+Animal name: stormee Animal age: 42 Animal type: Louse Animal priority 475845 custArray
+Animal name: zadquiel Animal age: 38 Animal type: Bear Animal priority 286755 custArray
+Animal name: melaney Animal age: 35 Animal type: Peregrine falcon Animal priority 618553 custArray
+Animal name: chaos Animal age: 18 Animal type: Anteater Animal priority 820430 custArray
+Animal name: reagyn Animal age: 25 Animal type: Ray (Rajiformes) Animal priority 635345 custArray
+Animal name: saba Animal age: 40 Animal type: Cicada Animal priority 739605 custArray
+Animal name: lavaya Animal age: 3 Animal type: Humpback whale Animal priority 263072 custArray
+Animal name: kolden Animal age: 15 Animal type: Moth Animal priority 419114 custArray
+Animal name: henry Animal age: 6 Animal type: Horse Animal priority 913253 custArray
+Animal name: saba Animal age: 40 Animal type: Cicada Animal priority 739605 custArray
+Animal name: kolden Animal age: 15 Animal type: Moth Animal priority 419114 custArray
+Animal name: reagyn Animal age: 25 Animal type: Ray (Rajiformes) Animal priority 635345 custArray
+Animal name: zadquiel Animal age: 38 Animal type: Bear Animal priority 286755 custArray
 
 -----------------Testing the add duplicates function----------------------
 =================Finding Duplicates of the First Element==================
-The 0 duplicate is Animal name: branton Animal age: 41 Animal type: Arabian leopard
-The 1 duplicate is Animal name: branton Animal age: 41 Animal type: Arabian leopard
+The 0 duplicate is Animal name: chaos Animal age: 18 Animal type: Anteater Animal priority 820430
+The 1 duplicate is Animal name: chaos Animal age: 18 Animal type: Anteater Animal priority 820430
 =================Removing Duplicates of the First Element==================
 -----------------Testing the remove all duplicates function----------------------
 
 The array size is 28 The tail pointer is at 19
-Animal name: keria Animal age: 3 Animal type: Dragon custArray
-Animal name: chalil Animal age: 26 Animal type: Pheasant custArray
-Animal name: karsyn Animal age: 11 Animal type: Python custArray
-Animal name: vahn Animal age: 46 Animal type: Badger custArray
-Animal name: nelia Animal age: 4 Animal type: Xerinae custArray
-Animal name: karsyn Animal age: 11 Animal type: Python custArray
-Animal name: erron Animal age: 42 Animal type: Barracuda custArray
-Animal name: keria Animal age: 3 Animal type: Dragon custArray
-Animal name: billy Animal age: 28 Animal type: Fowl custArray
-Animal name: valora Animal age: 50 Animal type: Tarantula custArray
-Animal name: valora Animal age: 50 Animal type: Tarantula custArray
-Animal name: vahn Animal age: 46 Animal type: Badger custArray
-Animal name: karsyn Animal age: 11 Animal type: Python custArray
-Animal name: erron Animal age: 42 Animal type: Barracuda custArray
-Animal name: vahn Animal age: 46 Animal type: Badger custArray
-Animal name: billy Animal age: 28 Animal type: Fowl custArray
-Animal name: erron Animal age: 42 Animal type: Barracuda custArray
-Animal name: dakoda Animal age: 34 Animal type: Cricket custArray
-Animal name: hughes Animal age: 23 Animal type: Tiger custArray
+Animal name: abbot Animal age: 2 Animal type: Water buffalo Animal priority 674802 custArray
+Animal name: kallel Animal age: 1 Animal type: Tarsier Animal priority 903652 custArray
+Animal name: zadquiel Animal age: 38 Animal type: Bear Animal priority 286755 custArray
+Animal name: melaney Animal age: 35 Animal type: Peregrine falcon Animal priority 618553 custArray
+Animal name: miki Animal age: 27 Animal type: Shrew Animal priority 570528 custArray
+Animal name: stormee Animal age: 42 Animal type: Louse Animal priority 475845 custArray
+Animal name: kolden Animal age: 15 Animal type: Moth Animal priority 419114 custArray
+Animal name: stormee Animal age: 42 Animal type: Louse Animal priority 475845 custArray
+Animal name: zadquiel Animal age: 38 Animal type: Bear Animal priority 286755 custArray
+Animal name: melaney Animal age: 35 Animal type: Peregrine falcon Animal priority 618553 custArray
+Animal name: reagyn Animal age: 25 Animal type: Ray (Rajiformes) Animal priority 635345 custArray
+Animal name: saba Animal age: 40 Animal type: Cicada Animal priority 739605 custArray
+Animal name: lavaya Animal age: 3 Animal type: Humpback whale Animal priority 263072 custArray
+Animal name: kolden Animal age: 15 Animal type: Moth Animal priority 419114 custArray
+Animal name: henry Animal age: 6 Animal type: Horse Animal priority 913253 custArray
+Animal name: saba Animal age: 40 Animal type: Cicada Animal priority 739605 custArray
+Animal name: kolden Animal age: 15 Animal type: Moth Animal priority 419114 custArray
+Animal name: reagyn Animal age: 25 Animal type: Ray (Rajiformes) Animal priority 635345 custArray
+Animal name: zadquiel Animal age: 38 Animal type: Bear Animal priority 286755 custArray
+
+------------------Sorting the Array----------------------
+=================Sorting the animals by Priority ==================
+
+The array size is 30 The tail pointer is at 15
+Animal name: mac Animal age: 34 Animal type: Salmon Animal priority 103606 custArray
+Animal name: lavaya Animal age: 3 Animal type: Humpback whale Animal priority 263072 custArray
+Animal name: zadquiel Animal age: 38 Animal type: Bear Animal priority 286755 custArray
+Animal name: karri Animal age: 43 Animal type: Ocelot Animal priority 308650 custArray
+Animal name: kolden Animal age: 15 Animal type: Moth Animal priority 419114 custArray
+Animal name: stormee Animal age: 42 Animal type: Louse Animal priority 475845 custArray
+Animal name: ahana Animal age: 25 Animal type: Crab Animal priority 500219 custArray
+Animal name: miki Animal age: 27 Animal type: Shrew Animal priority 570528 custArray
+Animal name: melaney Animal age: 35 Animal type: Peregrine falcon Animal priority 618553 custArray
+Animal name: reagyn Animal age: 25 Animal type: Ray (Rajiformes) Animal priority 635345 custArray
+Animal name: abbot Animal age: 2 Animal type: Water buffalo Animal priority 674802 custArray
+Animal name: saba Animal age: 40 Animal type: Cicada Animal priority 739605 custArray
+Animal name: chaos Animal age: 18 Animal type: Anteater Animal priority 820430 custArray
+Animal name: kallel Animal age: 1 Animal type: Tarsier Animal priority 903652 custArray
+Animal name: henry Animal age: 6 Animal type: Horse Animal priority 913253 custArray
 

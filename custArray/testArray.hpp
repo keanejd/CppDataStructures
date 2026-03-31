@@ -106,22 +106,24 @@ void findDuplicates(custArray<T>& _c, const T& _data) {
 
 }
 
-
-/* public static <T> void sortArray(const custArray<T>& _c) {
-    std::cout<<("------------------Sorting the Array----------------------");
-    std::cout<<("=================Sorting the animals by AGE ==================");
-    _c.sort();
+template<typename T>
+void sortArray(custArray<T>& _c) {
+        std::cout<<"------------------Sorting the Array----------------------\n";
+        std::cout<<"=================Sorting the animals by Priority ==================\n";
+        _c.sort();
     printArray(_c);
 
 }
-*/
+
 void testFunctions() {
 
     AnimalTest * test = filltheZoo(15, 1, 50);
     
     custArray<Animal> * animalArr = new custArray<Animal>(test->getSize()/2);
-
+    custArray<Animal> * sort  = new custArray<Animal>(test->getSize());
+    
     FillArray(*animalArr, test->zoo, test->getSize()/2);
+    FillArray(*sort, test->zoo, test->getSize());
     printArray(*animalArr);
 
     printArray(*animalArr, test->zoo, test->getSize());
@@ -134,7 +136,7 @@ void testFunctions() {
 
     findDuplicates(*animalArr, animalArr->getElement(0) );
 
-    //sortArray(animalArr);
+    sortArray(*sort);
 
     delete test;
     delete animalArr;
