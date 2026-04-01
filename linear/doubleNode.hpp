@@ -21,7 +21,7 @@ class doubleNode {
             return * this;
         }
 
-        T getData() const { return data;}
+        T& getData() { return data;}
         doubleNode<T>* getNext() const {return next;}
         doubleNode<T>* getPrev() const {return prev;}
 

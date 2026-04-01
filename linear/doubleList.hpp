@@ -2,6 +2,7 @@
 #include <iostream>
 #include <utility>
 #include "doubleNode.hpp"
+#include "itDL.hpp"
 
 template <typename T>
 class doubleList {
@@ -10,6 +11,11 @@ class doubleList {
         doubleNode<T>* head;
         doubleNode<T>* tail;
         int size;
+
+        itDL<T> begin()  { return itDL<T>(this->head); }
+        itDL<T> end()    { return itDL<T>(nullptr); }
+        itDL<T> rbegin() { return itDL<T>(this->tail); }
+        itDL<T> rend()   { return itDL<T>(nullptr); }
 
         T remove(doubleNode<T> * _node) {
             if(_node->getPrev() == nullptr) return removeFront();
@@ -185,31 +191,17 @@ class doubleList {
         }
 
         void printList() {
-                doubleNode<T>* current = head;
-                int i = 0;
-
-                while(current != nullptr) {
-                    std::cout<< i << ". " << current->getData() << " DL-->\n";
-                    current = current->getNext();
-                    i++;
-                }
-
-            std::cout<<"The end of the DoubleList of size  " << size<<"\n";
-            std::cout<<"\n";
+            int i = 0;
+            for( auto it = begin(); it != end(); ++it)
+                    std::cout<< i++ << ". " << *it << " DL-->\n";
+            std::cout<<"The end of the DoubleList of size  "<<size<<"\n\n";
         }
-
   
   
         void printReverse(){
-            doubleNode<T>* current = tail;
             int i = 0; 
-                while(current != nullptr) {
-                    std::cout<< i << ". " << current->getData() << " DL-->\n";
-                    current = current->getPrev();
-                    i++;
-                }
-
-            std::cout<<"The end of the DoubleList of size " << size <<"\n";
-            std::cout<<"\n";
+            for(auto it = rbegin(); it != rend(); --it)
+                    std::cout<< i++ << ". " << *it << " DL-->\n";
+            std::cout<<"The end of the DoubleList of size " << size <<"\n\n";
         }        
 };
