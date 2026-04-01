@@ -17,11 +17,24 @@ public:
     ~TreeNode() = default;
     TreeNode(const TreeNode<T>& _other) : TreeNode(_other.data) {}
 
-    TreeNode<T>& operator=(const TreeNode<T>& _other) {
+    TreeNode<T>& operator=(const TreeNode<T>& _other) const {
         if(this != _other){
              data = _other.data;
         }
+    
      return * this;
+    }
+    
+    bool operator ==(const TreeNode<T>& _other) const {
+        return  getData() == _other.getData(); 
+    }      
+    
+    bool operator >(const TreeNode<T>& _other) const {
+        return  getData() > _other.getData(); 
+    }
+    
+    bool operator <(const TreeNode<T>& _other) const {
+        return  getData() < _other.getData(); 
     }
 
     //getters
@@ -35,6 +48,11 @@ public:
     void setRight(TreeNode<T> * _right) {right = _right;}
     void setRightNull() { right = nullptr;}
     void setLeftNull() { left = nullptr; }
+
+    friend std::ostream& operator<<(std::ostream& os, const TreeNode<T>& _node) {
+        os << _node.data;
+        return os;
+    }
 
 
 };
