@@ -88,6 +88,10 @@ class BSTree {
             root = new TreeNode(_data);
             nodeCount++;
         } 
+
+        int getSize(){ return nodeCount;}
+
+        bool isEmpty() { return nodeCount == 0;}
         
         bool addNode(const T& _data) {
             if( contains(root, _data) )
@@ -100,7 +104,7 @@ class BSTree {
         }
 
         bool removeNode(const T& _data) {
-            if( contains(_data) ){
+            if( contains(root, _data) ){
                 nodeCount--;
                 root = remove(root, _data);
                 return true;
@@ -116,6 +120,7 @@ class BSTree {
         int treeHeight() {
             return height(root);
         }
+
 
 
         

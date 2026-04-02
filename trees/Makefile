@@ -9,7 +9,7 @@ main.o: main.cpp
 
 test: main.o
 	$(CXX) $(CXXFLAGS) -o test main.o -L$(ANIMAL_DIR) -lanimal
-	./test >linear_results.txt
+	./test 
 
 debug: CXXFLAGS += -g -fsanitize=address,undefined
 debug: main.o
@@ -18,6 +18,6 @@ debug: main.o
 clean:
 	rm -f *.o *.d test test_debug
 
-.PHONY: all test clean debug
+.PHONY: all test clean debug 
 
 -include $(wildcard *.d)

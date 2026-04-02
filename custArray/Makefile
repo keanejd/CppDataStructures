@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS = -Wall -Wextra -std=c++17
+CXXFLAGS = -Wall -Wextra -std=c++17 -MMD -MP
 ANIMAL_DIR = ../animal
 
 all: test 
@@ -12,6 +12,7 @@ test: main.o
 	./test > custArray_results.txt
 
 clean:
-	rm -f *.o test
+	rm -f *.o *.d test
 
 .PHONY: all test clean
+-include $(wildcard *.d)

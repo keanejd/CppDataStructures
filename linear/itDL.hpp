@@ -1,6 +1,6 @@
 #pragma once
 #include "doubleNode.hpp"
-
+// list iterator for the double list, only used for the print functions.
 template<typename T>
 class itDL {
     private:
