@@ -27,11 +27,11 @@ class stack {
 
 
 
-        int getSize(){return list->getSize();}
+        int getSize()const {return list->getSize();}
 
-        bool isEmpty(){ return getSize() == 0 ;}
+        bool isEmpty()const{ return getSize() == 0 ;}
 
-        T peek() { 
+        T peek() const { 
             if( isEmpty() ) {
                 std::cout << "The stack is Empty";
                 return T();
@@ -40,7 +40,7 @@ class stack {
             return list->peekRear();
         }
 
-        T pop() { 
+        T pop() const { 
             if( isEmpty() ) {
                 std::cout<<" The queue is Empty";
                 return T();

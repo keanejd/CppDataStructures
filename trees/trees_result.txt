@@ -1,0 +1,107 @@
+The height of the Tree is: 6
+
+The tree has : 11 nodes
+Log2 of node count: 3.45943
+
+Does the tree contain: true
+
+Was the node removed: true
+
+The height of the Tree is: 5
+
+The tree has : 10 nodes
+Log2 of node count: 3.32193
+
+----------Testing the pre order traversal---------------
+Animal name: noir Animal age: 30 Animal type: Constrictor Animal priority 485027
+Animal name: seriah Animal age: 8 Animal type: Bee Animal priority 45065
+Animal name: iliana Animal age: 32 Animal type: Booby Animal priority 169254
+Animal name: jakia Animal age: 44 Animal type: Meerkat Animal priority 147262
+Animal name: melani Animal age: 26 Animal type: Ox Animal priority 90905
+Animal name: caycen Animal age: 10 Animal type: Boa Animal priority 261200
+Animal name: norie Animal age: 35 Animal type: Vicuna Animal priority 858923
+Animal name: kaycee Animal age: 44 Animal type: Buffalo, African Animal priority 740360
+Animal name: berlynn Animal age: 12 Animal type: Scorpion Animal priority 632353
+Animal name: lavera Animal age: 16 Animal type: Dove Animal priority 588979
+The height of the Tree is: 5
+
+The tree has : 10 nodes
+Log2 of node count: 3.32193
+
+----------Testing the post order traversal---------------
+Animal name: melani Animal age: 26 Animal type: Ox Animal priority 90905
+Animal name: jakia Animal age: 44 Animal type: Meerkat Animal priority 147262
+Animal name: caycen Animal age: 10 Animal type: Boa Animal priority 261200
+Animal name: iliana Animal age: 32 Animal type: Booby Animal priority 169254
+Animal name: seriah Animal age: 8 Animal type: Bee Animal priority 45065
+Animal name: lavera Animal age: 16 Animal type: Dove Animal priority 588979
+Animal name: berlynn Animal age: 12 Animal type: Scorpion Animal priority 632353
+Animal name: kaycee Animal age: 44 Animal type: Buffalo, African Animal priority 740360
+Animal name: norie Animal age: 35 Animal type: Vicuna Animal priority 858923
+Animal name: noir Animal age: 30 Animal type: Constrictor Animal priority 485027
+The height of the Tree is: 5
+
+The tree has : 10 nodes
+Log2 of node count: 3.32193
+
+----------Testing the in order traversal---------------
+Animal name: seriah Animal age: 8 Animal type: Bee Animal priority 45065
+Animal name: melani Animal age: 26 Animal type: Ox Animal priority 90905
+Animal name: jakia Animal age: 44 Animal type: Meerkat Animal priority 147262
+Animal name: iliana Animal age: 32 Animal type: Booby Animal priority 169254
+Animal name: caycen Animal age: 10 Animal type: Boa Animal priority 261200
+Animal name: noir Animal age: 30 Animal type: Constrictor Animal priority 485027
+Animal name: lavera Animal age: 16 Animal type: Dove Animal priority 588979
+Animal name: berlynn Animal age: 12 Animal type: Scorpion Animal priority 632353
+Animal name: kaycee Animal age: 44 Animal type: Buffalo, African Animal priority 740360
+Animal name: norie Animal age: 35 Animal type: Vicuna Animal priority 858923
+The height of the Tree is: 5
+
+The tree has : 10 nodes
+Log2 of node count: 3.32193
+
+----------Testing the level order traversal---------------
+Animal name: noir Animal age: 30 Animal type: Constrictor Animal priority 485027
+Animal name: norie Animal age: 35 Animal type: Vicuna Animal priority 858923
+Animal name: seriah Animal age: 8 Animal type: Bee Animal priority 45065
+Animal name: kaycee Animal age: 44 Animal type: Buffalo, African Animal priority 740360
+Animal name: iliana Animal age: 32 Animal type: Booby Animal priority 169254
+Animal name: berlynn Animal age: 12 Animal type: Scorpion Animal priority 632353
+Animal name: caycen Animal age: 10 Animal type: Boa Animal priority 261200
+Animal name: jakia Animal age: 44 Animal type: Meerkat Animal priority 147262
+Animal name: lavera Animal age: 16 Animal type: Dove Animal priority 588979
+Animal name: melani Animal age: 26 Animal type: Ox Animal priority 90905
+The height of the Tree is: 5
+
+The tree has : 10 nodes
+Log2 of node count: 3.32193
+
+------------This is the Que----------------------
+The Queue size is 10
+
+This is a queue of size 10
+0. Animal name: norie Animal age: 35 Animal type: Vicuna Animal priority 858923 DL-->
+1. Animal name: seriah Animal age: 8 Animal type: Bee Animal priority 45065 DL-->
+2. Animal name: noir Animal age: 30 Animal type: Constrictor Animal priority 485027 DL-->
+3. Animal name: kaycee Animal age: 44 Animal type: Buffalo, African Animal priority 740360 DL-->
+4. Animal name: berlynn Animal age: 12 Animal type: Scorpion Animal priority 632353 DL-->
+5. Animal name: iliana Animal age: 32 Animal type: Booby Animal priority 169254 DL-->
+6. Animal name: jakia Animal age: 44 Animal type: Meerkat Animal priority 147262 DL-->
+7. Animal name: caycen Animal age: 10 Animal type: Boa Animal priority 261200 DL-->
+8. Animal name: lavera Animal age: 16 Animal type: Dove Animal priority 588979 DL-->
+9. Animal name: melani Animal age: 26 Animal type: Ox Animal priority 90905 DL-->
+The end of the DoubleList of size  10
+
+
+
+-----------Printing a Tree-------------------------------------
+The height of the Tree is: 5
+
+The tree has : 10 nodes
+Log2 of node count: 3.32193
+
+               41               
+       11               72       
+           15       59       86   
+             27   49   65         
+              33                

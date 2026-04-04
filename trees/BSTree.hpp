@@ -2,12 +2,15 @@
 #include<iostream>
 #include<algorithm>
 #include "TreeNode.hpp"
+#include "../linear/stack.hpp"
+#include "../linear/queue.hpp"
 
 template <typename T>
 class BSTree {
     private:
         TreeNode<T> * root;
         int nodeCount;
+
 
         // pass the root --> to this function for adding
         TreeNode<T> * add(TreeNode<T>* _node, const T& _data) {
@@ -75,7 +78,7 @@ class BSTree {
                     // leftmost node in the right subtree
                     TreeNode<T> * temp = findMin( _node->getRight() ) ;
                     _node->setData(temp->getData());
-                    _node->setRight( remove(temp->getRight(), temp->getData()));
+                    _node->setRight( remove(_node->getRight(), temp->getData()));
                 }
             }
             return _node;
@@ -88,6 +91,8 @@ class BSTree {
             root = new TreeNode(_data);
             nodeCount++;
         } 
+
+        TreeNode<T> * getRoot() const {return root;}
 
         int getSize(){ return nodeCount;}
 
@@ -121,7 +126,100 @@ class BSTree {
             return height(root);
         }
 
+        enum class traversalType { PREORDER, INORDER, POSTORDER, LEVELORDER};
 
+        class iterator {
+            private: 
+                traversalType travType;
+                stack<TreeNode<T>*> nodeStack;
+                stack<TreeNode<T>*>nodeStack2;
+                queue<TreeNode<T>*> nodeQueue;
 
-        
+                void advancePreOrder() {
+                    TreeNode<T>* node = nodeStack.pop();
+                    if(node->getRight() != nullptr) 
+                        nodeStack.push(node->getRight());
+                    if(node->getLeft() != nullptr)
+                        nodeStack.push(node->getLeft());
+                }
+
+                void advanceInOrder(){
+                    TreeNode<T>* node = nodeStack.pop();
+                    node = node->getRight();
+                    while(node != nullptr) {
+                        nodeStack.push(node);
+                        node = node->getLeft();
+                    }
+                }
+
+                void advancePostOrder() {
+                    nodeStack2.pop();
+                }
+
+                void advanceLevelOrder() {
+                    TreeNode<T>* node = nodeQueue.poll();
+                    if(node->getRight() != nullptr) 
+                        nodeQueue.offer(node->getRight());
+                    if(node->getLeft() != nullptr)
+                        nodeQueue.offer(node->getLeft());
+                }
+
+                public:
+                    iterator(TreeNode<T>* _root, traversalType _type) : travType(_type) {
+                        if(_root == nullptr) return;
+                
+                        else if(_type == traversalType::LEVELORDER)
+                                nodeQueue.offer(_root);
+                        
+                        else if(_type == traversalType::INORDER) {
+                            TreeNode<T>* node = _root;
+                            while(node != nullptr) {
+                                nodeStack.push(node);
+                                node = node->getLeft();
+                            }
+                        }
+                        else if (_type == traversalType::POSTORDER) {
+                               nodeStack.push(_root);
+                                while (!nodeStack.isEmpty()) {
+                                    TreeNode<T>* node = nodeStack.pop();
+                                    nodeStack2.push(node);
+                                    if (node->getLeft() != nullptr) nodeStack.push(node->getLeft());
+                                    if (node->getRight() != nullptr) nodeStack.push(node->getRight());
+                                }
+                        }
+                        else 
+                            nodeStack.push(_root);
+                    }
+                    
+                
+                    bool operator !=(const iterator& _other) const {
+                        if(travType == traversalType::LEVELORDER)
+                            return !nodeQueue.isEmpty();
+                        if(travType == traversalType::POSTORDER)
+                            return !nodeStack2.isEmpty();
+                        return !nodeStack.isEmpty();
+                    }
+
+                    iterator& operator++() {
+                        switch (travType) {
+                            case traversalType::PREORDER: advancePreOrder(); break;
+                            case traversalType::INORDER: advanceInOrder(); break;
+                            case traversalType::POSTORDER: advancePostOrder(); break;
+                            case traversalType::LEVELORDER: advanceLevelOrder(); break;
+                        }
+                        return * this;
+                    }
+
+                     const T& operator*() const {
+                         if (travType == traversalType::LEVELORDER)
+                             return nodeQueue.peek()->getData();
+                         if (travType == traversalType::POSTORDER)
+                            return nodeStack2.peek()->getData();
+                        return nodeStack.peek()->getData();
+                    }
+
+                };
+
+                iterator begin(traversalType _type) { return iterator(root, _type); }
+                iterator end(traversalType _type) { return iterator(nullptr, _type); }
 };

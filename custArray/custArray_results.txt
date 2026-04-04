@@ -2,137 +2,137 @@ We are filling the Array with this many elements: 7
 We are filling the Array with this many elements: 15
 
 The array size is 14 The tail pointer is at 7
-Animal name: aceion Animal age: 42 Animal type: Horse Animal priority 6662 custArray
-Animal name: eliyanna Animal age: 46 Animal type: Bandicoot Animal priority 993555 custArray
-Animal name: lovie Animal age: 44 Animal type: Quokka Animal priority 463882 custArray
-Animal name: jaxstyn Animal age: 7 Animal type: Mongoose Animal priority 91338 custArray
-Animal name: gwyndolin Animal age: 2 Animal type: Meadowlark Animal priority 66486 custArray
-Animal name: dirk Animal age: 49 Animal type: Aphid Animal priority 363034 custArray
-Animal name: ahlanni Animal age: 22 Animal type: Ant Animal priority 91176 custArray
+Animal name: lorianne Animal age: 13 Animal type: African buffalo Animal priority 538855 custArray
+Animal name: quinnton Animal age: 34 Animal type: Komodo dragon Animal priority 944592 custArray
+Animal name: preslee Animal age: 11 Animal type: Sfish Animal priority 894944 custArray
+Animal name: stetsyn Animal age: 41 Animal type: Coral Animal priority 427944 custArray
+Animal name: kacie Animal age: 22 Animal type: Elephant seal Animal priority 504459 custArray
+Animal name: alois Animal age: 43 Animal type: Aphid Animal priority 953292 custArray
+Animal name: nyah Animal age: 46 Animal type: Cheetah Animal priority 834400 custArray
 
 
 The array size is 14 The tail pointer is at 7OVERLOADED
-Animal name: aceion Animal age: 42 Animal type: Horse Animal priority 6662 array Param custArray
-Animal name: eliyanna Animal age: 46 Animal type: Bandicoot Animal priority 993555 array Param custArray
-Animal name: lovie Animal age: 44 Animal type: Quokka Animal priority 463882 array Param custArray
-Animal name: jaxstyn Animal age: 7 Animal type: Mongoose Animal priority 91338 array Param custArray
-Animal name: gwyndolin Animal age: 2 Animal type: Meadowlark Animal priority 66486 array Param custArray
-Animal name: dirk Animal age: 49 Animal type: Aphid Animal priority 363034 array Param custArray
-Animal name: ahlanni Animal age: 22 Animal type: Ant Animal priority 91176 array Param custArray
-Animal name: katlynn Animal age: 28 Animal type: Panther Animal priority 648943 array Param custArray
-Animal name: sione Animal age: 8 Animal type: Cat Animal priority 964925 array Param custArray
-Animal name: tytus Animal age: 40 Animal type: Moose Animal priority 320869 array Param custArray
-Animal name: zaniel Animal age: 19 Animal type: Arrow crab Animal priority 632121 array Param custArray
-Animal name: kekoa Animal age: 26 Animal type: Skink Animal priority 713395 array Param custArray
-Animal name: eian Animal age: 11 Animal type: Great white shark Animal priority 60799 array Param custArray
-Animal name: irish Animal age: 32 Animal type: American buffalo (bison) Animal priority 735707 array Param custArray
-Animal name: analaura Animal age: 16 Animal type: Platypus Animal priority 923452 array Param custArray
+Animal name: lorianne Animal age: 13 Animal type: African buffalo Animal priority 538855 array Param custArray
+Animal name: quinnton Animal age: 34 Animal type: Komodo dragon Animal priority 944592 array Param custArray
+Animal name: preslee Animal age: 11 Animal type: Sfish Animal priority 894944 array Param custArray
+Animal name: stetsyn Animal age: 41 Animal type: Coral Animal priority 427944 array Param custArray
+Animal name: kacie Animal age: 22 Animal type: Elephant seal Animal priority 504459 array Param custArray
+Animal name: alois Animal age: 43 Animal type: Aphid Animal priority 953292 array Param custArray
+Animal name: nyah Animal age: 46 Animal type: Cheetah Animal priority 834400 array Param custArray
+Animal name: ephraim Animal age: 48 Animal type: Arctic Wolf Animal priority 64867 array Param custArray
+Animal name: jadoir Animal age: 14 Animal type: Mongoose Animal priority 854954 array Param custArray
+Animal name: oliviah Animal age: 50 Animal type: Arctic Wolf Animal priority 810571 array Param custArray
+Animal name: jordy Animal age: 22 Animal type: Porcupine Animal priority 223972 array Param custArray
+Animal name: jorian Animal age: 16 Animal type: Hummingbird Animal priority 439363 array Param custArray
+Animal name: danniella Animal age: 19 Animal type: Piranha Animal priority 162018 array Param custArray
+Animal name: xaria Animal age: 3 Animal type: Meerkat Animal priority 575644 array Param custArray
+Animal name: iszabella Animal age: 29 Animal type: Goldfish Animal priority 275694 array Param custArray
 
 -----------------Testing the swap function----------------------
 Before the swap
 
 The array size is 14 The tail pointer is at 7
-Animal name: aceion Animal age: 42 Animal type: Horse Animal priority 6662 custArray
-Animal name: eliyanna Animal age: 46 Animal type: Bandicoot Animal priority 993555 custArray
-Animal name: lovie Animal age: 44 Animal type: Quokka Animal priority 463882 custArray
-Animal name: jaxstyn Animal age: 7 Animal type: Mongoose Animal priority 91338 custArray
-Animal name: gwyndolin Animal age: 2 Animal type: Meadowlark Animal priority 66486 custArray
-Animal name: dirk Animal age: 49 Animal type: Aphid Animal priority 363034 custArray
-Animal name: ahlanni Animal age: 22 Animal type: Ant Animal priority 91176 custArray
+Animal name: lorianne Animal age: 13 Animal type: African buffalo Animal priority 538855 custArray
+Animal name: quinnton Animal age: 34 Animal type: Komodo dragon Animal priority 944592 custArray
+Animal name: preslee Animal age: 11 Animal type: Sfish Animal priority 894944 custArray
+Animal name: stetsyn Animal age: 41 Animal type: Coral Animal priority 427944 custArray
+Animal name: kacie Animal age: 22 Animal type: Elephant seal Animal priority 504459 custArray
+Animal name: alois Animal age: 43 Animal type: Aphid Animal priority 953292 custArray
+Animal name: nyah Animal age: 46 Animal type: Cheetah Animal priority 834400 custArray
 
 After the swap
 
 The array size is 14 The tail pointer is at 7
-Animal name: ahlanni Animal age: 22 Animal type: Ant Animal priority 91176 custArray
-Animal name: eliyanna Animal age: 46 Animal type: Bandicoot Animal priority 993555 custArray
-Animal name: lovie Animal age: 44 Animal type: Quokka Animal priority 463882 custArray
-Animal name: jaxstyn Animal age: 7 Animal type: Mongoose Animal priority 91338 custArray
-Animal name: gwyndolin Animal age: 2 Animal type: Meadowlark Animal priority 66486 custArray
-Animal name: dirk Animal age: 49 Animal type: Aphid Animal priority 363034 custArray
-Animal name: aceion Animal age: 42 Animal type: Horse Animal priority 6662 custArray
+Animal name: nyah Animal age: 46 Animal type: Cheetah Animal priority 834400 custArray
+Animal name: quinnton Animal age: 34 Animal type: Komodo dragon Animal priority 944592 custArray
+Animal name: preslee Animal age: 11 Animal type: Sfish Animal priority 894944 custArray
+Animal name: stetsyn Animal age: 41 Animal type: Coral Animal priority 427944 custArray
+Animal name: kacie Animal age: 22 Animal type: Elephant seal Animal priority 504459 custArray
+Animal name: alois Animal age: 43 Animal type: Aphid Animal priority 953292 custArray
+Animal name: lorianne Animal age: 13 Animal type: African buffalo Animal priority 538855 custArray
 
 -----------------Testing the remove function----------------------
 
-The removed element is: Animal name: ahlanni Animal age: 22 Animal type: Ant Animal priority 91176
+The removed element is: Animal name: nyah Animal age: 46 Animal type: Cheetah Animal priority 834400
 
 The array size is 7 The tail pointer is at 6
-Animal name: eliyanna Animal age: 46 Animal type: Bandicoot Animal priority 993555 custArray
-Animal name: lovie Animal age: 44 Animal type: Quokka Animal priority 463882 custArray
-Animal name: jaxstyn Animal age: 7 Animal type: Mongoose Animal priority 91338 custArray
-Animal name: gwyndolin Animal age: 2 Animal type: Meadowlark Animal priority 66486 custArray
-Animal name: dirk Animal age: 49 Animal type: Aphid Animal priority 363034 custArray
-Animal name: aceion Animal age: 42 Animal type: Horse Animal priority 6662 custArray
+Animal name: quinnton Animal age: 34 Animal type: Komodo dragon Animal priority 944592 custArray
+Animal name: preslee Animal age: 11 Animal type: Sfish Animal priority 894944 custArray
+Animal name: stetsyn Animal age: 41 Animal type: Coral Animal priority 427944 custArray
+Animal name: kacie Animal age: 22 Animal type: Elephant seal Animal priority 504459 custArray
+Animal name: alois Animal age: 43 Animal type: Aphid Animal priority 953292 custArray
+Animal name: lorianne Animal age: 13 Animal type: African buffalo Animal priority 538855 custArray
 
 -----------------Testing the add duplicates function----------------------
 
 The array size is 28 The tail pointer is at 21
-Animal name: eliyanna Animal age: 46 Animal type: Bandicoot Animal priority 993555 custArray
-Animal name: lovie Animal age: 44 Animal type: Quokka Animal priority 463882 custArray
-Animal name: jaxstyn Animal age: 7 Animal type: Mongoose Animal priority 91338 custArray
-Animal name: gwyndolin Animal age: 2 Animal type: Meadowlark Animal priority 66486 custArray
-Animal name: dirk Animal age: 49 Animal type: Aphid Animal priority 363034 custArray
-Animal name: aceion Animal age: 42 Animal type: Horse Animal priority 6662 custArray
-Animal name: jaxstyn Animal age: 7 Animal type: Mongoose Animal priority 91338 custArray
-Animal name: tytus Animal age: 40 Animal type: Moose Animal priority 320869 custArray
-Animal name: dirk Animal age: 49 Animal type: Aphid Animal priority 363034 custArray
-Animal name: ahlanni Animal age: 22 Animal type: Ant Animal priority 91176 custArray
-Animal name: aceion Animal age: 42 Animal type: Horse Animal priority 6662 custArray
-Animal name: katlynn Animal age: 28 Animal type: Panther Animal priority 648943 custArray
-Animal name: ahlanni Animal age: 22 Animal type: Ant Animal priority 91176 custArray
-Animal name: tytus Animal age: 40 Animal type: Moose Animal priority 320869 custArray
-Animal name: jaxstyn Animal age: 7 Animal type: Mongoose Animal priority 91338 custArray
-Animal name: dirk Animal age: 49 Animal type: Aphid Animal priority 363034 custArray
-Animal name: tytus Animal age: 40 Animal type: Moose Animal priority 320869 custArray
-Animal name: kekoa Animal age: 26 Animal type: Skink Animal priority 713395 custArray
-Animal name: tytus Animal age: 40 Animal type: Moose Animal priority 320869 custArray
-Animal name: gwyndolin Animal age: 2 Animal type: Meadowlark Animal priority 66486 custArray
-Animal name: aceion Animal age: 42 Animal type: Horse Animal priority 6662 custArray
+Animal name: quinnton Animal age: 34 Animal type: Komodo dragon Animal priority 944592 custArray
+Animal name: preslee Animal age: 11 Animal type: Sfish Animal priority 894944 custArray
+Animal name: stetsyn Animal age: 41 Animal type: Coral Animal priority 427944 custArray
+Animal name: kacie Animal age: 22 Animal type: Elephant seal Animal priority 504459 custArray
+Animal name: alois Animal age: 43 Animal type: Aphid Animal priority 953292 custArray
+Animal name: lorianne Animal age: 13 Animal type: African buffalo Animal priority 538855 custArray
+Animal name: nyah Animal age: 46 Animal type: Cheetah Animal priority 834400 custArray
+Animal name: danniella Animal age: 19 Animal type: Piranha Animal priority 162018 custArray
+Animal name: jordy Animal age: 22 Animal type: Porcupine Animal priority 223972 custArray
+Animal name: jorian Animal age: 16 Animal type: Hummingbird Animal priority 439363 custArray
+Animal name: oliviah Animal age: 50 Animal type: Arctic Wolf Animal priority 810571 custArray
+Animal name: jadoir Animal age: 14 Animal type: Mongoose Animal priority 854954 custArray
+Animal name: danniella Animal age: 19 Animal type: Piranha Animal priority 162018 custArray
+Animal name: iszabella Animal age: 29 Animal type: Goldfish Animal priority 275694 custArray
+Animal name: quinnton Animal age: 34 Animal type: Komodo dragon Animal priority 944592 custArray
+Animal name: stetsyn Animal age: 41 Animal type: Coral Animal priority 427944 custArray
+Animal name: alois Animal age: 43 Animal type: Aphid Animal priority 953292 custArray
+Animal name: preslee Animal age: 11 Animal type: Sfish Animal priority 894944 custArray
+Animal name: nyah Animal age: 46 Animal type: Cheetah Animal priority 834400 custArray
+Animal name: jadoir Animal age: 14 Animal type: Mongoose Animal priority 854954 custArray
+Animal name: iszabella Animal age: 29 Animal type: Goldfish Animal priority 275694 custArray
 
 -----------------Testing the add duplicates function----------------------
 =================Finding Duplicates of the First Element==================
-The 0 duplicate is Animal name: eliyanna Animal age: 46 Animal type: Bandicoot Animal priority 993555
+The 0 duplicate is Animal name: quinnton Animal age: 34 Animal type: Komodo dragon Animal priority 944592
+The 1 duplicate is Animal name: quinnton Animal age: 34 Animal type: Komodo dragon Animal priority 944592
 =================Removing Duplicates of the First Element==================
 -----------------Testing the remove all duplicates function----------------------
 
-The array size is 28 The tail pointer is at 20
-Animal name: lovie Animal age: 44 Animal type: Quokka Animal priority 463882 custArray
-Animal name: jaxstyn Animal age: 7 Animal type: Mongoose Animal priority 91338 custArray
-Animal name: gwyndolin Animal age: 2 Animal type: Meadowlark Animal priority 66486 custArray
-Animal name: dirk Animal age: 49 Animal type: Aphid Animal priority 363034 custArray
-Animal name: aceion Animal age: 42 Animal type: Horse Animal priority 6662 custArray
-Animal name: jaxstyn Animal age: 7 Animal type: Mongoose Animal priority 91338 custArray
-Animal name: tytus Animal age: 40 Animal type: Moose Animal priority 320869 custArray
-Animal name: dirk Animal age: 49 Animal type: Aphid Animal priority 363034 custArray
-Animal name: ahlanni Animal age: 22 Animal type: Ant Animal priority 91176 custArray
-Animal name: aceion Animal age: 42 Animal type: Horse Animal priority 6662 custArray
-Animal name: katlynn Animal age: 28 Animal type: Panther Animal priority 648943 custArray
-Animal name: ahlanni Animal age: 22 Animal type: Ant Animal priority 91176 custArray
-Animal name: tytus Animal age: 40 Animal type: Moose Animal priority 320869 custArray
-Animal name: jaxstyn Animal age: 7 Animal type: Mongoose Animal priority 91338 custArray
-Animal name: dirk Animal age: 49 Animal type: Aphid Animal priority 363034 custArray
-Animal name: tytus Animal age: 40 Animal type: Moose Animal priority 320869 custArray
-Animal name: kekoa Animal age: 26 Animal type: Skink Animal priority 713395 custArray
-Animal name: tytus Animal age: 40 Animal type: Moose Animal priority 320869 custArray
-Animal name: gwyndolin Animal age: 2 Animal type: Meadowlark Animal priority 66486 custArray
-Animal name: aceion Animal age: 42 Animal type: Horse Animal priority 6662 custArray
+The array size is 28 The tail pointer is at 19
+Animal name: preslee Animal age: 11 Animal type: Sfish Animal priority 894944 custArray
+Animal name: stetsyn Animal age: 41 Animal type: Coral Animal priority 427944 custArray
+Animal name: kacie Animal age: 22 Animal type: Elephant seal Animal priority 504459 custArray
+Animal name: alois Animal age: 43 Animal type: Aphid Animal priority 953292 custArray
+Animal name: lorianne Animal age: 13 Animal type: African buffalo Animal priority 538855 custArray
+Animal name: nyah Animal age: 46 Animal type: Cheetah Animal priority 834400 custArray
+Animal name: danniella Animal age: 19 Animal type: Piranha Animal priority 162018 custArray
+Animal name: jordy Animal age: 22 Animal type: Porcupine Animal priority 223972 custArray
+Animal name: jorian Animal age: 16 Animal type: Hummingbird Animal priority 439363 custArray
+Animal name: oliviah Animal age: 50 Animal type: Arctic Wolf Animal priority 810571 custArray
+Animal name: jadoir Animal age: 14 Animal type: Mongoose Animal priority 854954 custArray
+Animal name: danniella Animal age: 19 Animal type: Piranha Animal priority 162018 custArray
+Animal name: iszabella Animal age: 29 Animal type: Goldfish Animal priority 275694 custArray
+Animal name: stetsyn Animal age: 41 Animal type: Coral Animal priority 427944 custArray
+Animal name: alois Animal age: 43 Animal type: Aphid Animal priority 953292 custArray
+Animal name: preslee Animal age: 11 Animal type: Sfish Animal priority 894944 custArray
+Animal name: nyah Animal age: 46 Animal type: Cheetah Animal priority 834400 custArray
+Animal name: jadoir Animal age: 14 Animal type: Mongoose Animal priority 854954 custArray
+Animal name: iszabella Animal age: 29 Animal type: Goldfish Animal priority 275694 custArray
 
 ------------------Sorting the Array----------------------
 =================Sorting the animals by Priority ==================
 
 The array size is 30 The tail pointer is at 15
-Animal name: aceion Animal age: 42 Animal type: Horse Animal priority 6662 custArray
-Animal name: eian Animal age: 11 Animal type: Great white shark Animal priority 60799 custArray
-Animal name: gwyndolin Animal age: 2 Animal type: Meadowlark Animal priority 66486 custArray
-Animal name: ahlanni Animal age: 22 Animal type: Ant Animal priority 91176 custArray
-Animal name: jaxstyn Animal age: 7 Animal type: Mongoose Animal priority 91338 custArray
-Animal name: tytus Animal age: 40 Animal type: Moose Animal priority 320869 custArray
-Animal name: dirk Animal age: 49 Animal type: Aphid Animal priority 363034 custArray
-Animal name: lovie Animal age: 44 Animal type: Quokka Animal priority 463882 custArray
-Animal name: zaniel Animal age: 19 Animal type: Arrow crab Animal priority 632121 custArray
-Animal name: katlynn Animal age: 28 Animal type: Panther Animal priority 648943 custArray
-Animal name: kekoa Animal age: 26 Animal type: Skink Animal priority 713395 custArray
-Animal name: irish Animal age: 32 Animal type: American buffalo (bison) Animal priority 735707 custArray
-Animal name: analaura Animal age: 16 Animal type: Platypus Animal priority 923452 custArray
-Animal name: sione Animal age: 8 Animal type: Cat Animal priority 964925 custArray
-Animal name: eliyanna Animal age: 46 Animal type: Bandicoot Animal priority 993555 custArray
+Animal name: ephraim Animal age: 48 Animal type: Arctic Wolf Animal priority 64867 custArray
+Animal name: danniella Animal age: 19 Animal type: Piranha Animal priority 162018 custArray
+Animal name: jordy Animal age: 22 Animal type: Porcupine Animal priority 223972 custArray
+Animal name: iszabella Animal age: 29 Animal type: Goldfish Animal priority 275694 custArray
+Animal name: stetsyn Animal age: 41 Animal type: Coral Animal priority 427944 custArray
+Animal name: jorian Animal age: 16 Animal type: Hummingbird Animal priority 439363 custArray
+Animal name: kacie Animal age: 22 Animal type: Elephant seal Animal priority 504459 custArray
+Animal name: lorianne Animal age: 13 Animal type: African buffalo Animal priority 538855 custArray
+Animal name: xaria Animal age: 3 Animal type: Meerkat Animal priority 575644 custArray
+Animal name: oliviah Animal age: 50 Animal type: Arctic Wolf Animal priority 810571 custArray
+Animal name: nyah Animal age: 46 Animal type: Cheetah Animal priority 834400 custArray
+Animal name: jadoir Animal age: 14 Animal type: Mongoose Animal priority 854954 custArray
+Animal name: preslee Animal age: 11 Animal type: Sfish Animal priority 894944 custArray
+Animal name: quinnton Animal age: 34 Animal type: Komodo dragon Animal priority 944592 custArray
+Animal name: alois Animal age: 43 Animal type: Aphid Animal priority 953292 custArray
 

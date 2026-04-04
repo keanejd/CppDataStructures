@@ -38,7 +38,7 @@ public:
     }
 
     //getters
-    T  getData() const {return data;}
+    const T&  getData() const {return data;}
     TreeNode<T> * getLeft()const{ return left;}
     TreeNode<T> * getRight() const { return right;}
 

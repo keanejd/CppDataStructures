@@ -1,0 +1,138 @@
+We are filling the Array with this many elements: 7
+We are filling the Array with this many elements: 15
+
+The array size is 14 The tail pointer is at 7
+Animal name: emie Animal age: 25 Animal type: Trapdoor spider Animal priority 669778 custArray
+Animal name: levy Animal age: 20 Animal type: Asp Animal priority 202567 custArray
+Animal name: adalicia Animal age: 20 Animal type: Giant panda Animal priority 631429 custArray
+Animal name: jadiah Animal age: 27 Animal type: Lemming Animal priority 933514 custArray
+Animal name: annelisse Animal age: 17 Animal type: Alpaca Animal priority 638760 custArray
+Animal name: dysen Animal age: 8 Animal type: Tarsier Animal priority 397898 custArray
+Animal name: ren Animal age: 24 Animal type: Rook Animal priority 216155 custArray
+
+
+The array size is 14 The tail pointer is at 7OVERLOADED
+Animal name: emie Animal age: 25 Animal type: Trapdoor spider Animal priority 669778 array Param custArray
+Animal name: levy Animal age: 20 Animal type: Asp Animal priority 202567 array Param custArray
+Animal name: adalicia Animal age: 20 Animal type: Giant panda Animal priority 631429 array Param custArray
+Animal name: jadiah Animal age: 27 Animal type: Lemming Animal priority 933514 array Param custArray
+Animal name: annelisse Animal age: 17 Animal type: Alpaca Animal priority 638760 array Param custArray
+Animal name: dysen Animal age: 8 Animal type: Tarsier Animal priority 397898 array Param custArray
+Animal name: ren Animal age: 24 Animal type: Rook Animal priority 216155 array Param custArray
+Animal name: adaira Animal age: 22 Animal type: Beaver Animal priority 249659 array Param custArray
+Animal name: amra Animal age: 38 Animal type: Aardwolf Animal priority 747567 array Param custArray
+Animal name: matthieu Animal age: 44 Animal type: Swift Animal priority 591499 array Param custArray
+Animal name: yuki Animal age: 43 Animal type: Viper Animal priority 138041 array Param custArray
+Animal name: pierre Animal age: 5 Animal type: Magpie Animal priority 763778 array Param custArray
+Animal name: dwij Animal age: 15 Animal type: Elk Animal priority 951298 array Param custArray
+Animal name: zhyair Animal age: 37 Animal type: Tiger shark Animal priority 715297 array Param custArray
+Animal name: carrigan Animal age: 10 Animal type: Wildebeest Animal priority 964995 array Param custArray
+
+-----------------Testing the swap function----------------------
+Before the swap
+
+The array size is 14 The tail pointer is at 7
+Animal name: emie Animal age: 25 Animal type: Trapdoor spider Animal priority 669778 custArray
+Animal name: levy Animal age: 20 Animal type: Asp Animal priority 202567 custArray
+Animal name: adalicia Animal age: 20 Animal type: Giant panda Animal priority 631429 custArray
+Animal name: jadiah Animal age: 27 Animal type: Lemming Animal priority 933514 custArray
+Animal name: annelisse Animal age: 17 Animal type: Alpaca Animal priority 638760 custArray
+Animal name: dysen Animal age: 8 Animal type: Tarsier Animal priority 397898 custArray
+Animal name: ren Animal age: 24 Animal type: Rook Animal priority 216155 custArray
+
+After the swap
+
+The array size is 14 The tail pointer is at 7
+Animal name: ren Animal age: 24 Animal type: Rook Animal priority 216155 custArray
+Animal name: levy Animal age: 20 Animal type: Asp Animal priority 202567 custArray
+Animal name: adalicia Animal age: 20 Animal type: Giant panda Animal priority 631429 custArray
+Animal name: jadiah Animal age: 27 Animal type: Lemming Animal priority 933514 custArray
+Animal name: annelisse Animal age: 17 Animal type: Alpaca Animal priority 638760 custArray
+Animal name: dysen Animal age: 8 Animal type: Tarsier Animal priority 397898 custArray
+Animal name: emie Animal age: 25 Animal type: Trapdoor spider Animal priority 669778 custArray
+
+-----------------Testing the remove function----------------------
+
+The removed element is: Animal name: ren Animal age: 24 Animal type: Rook Animal priority 216155
+
+The array size is 7 The tail pointer is at 6
+Animal name: levy Animal age: 20 Animal type: Asp Animal priority 202567 custArray
+Animal name: adalicia Animal age: 20 Animal type: Giant panda Animal priority 631429 custArray
+Animal name: jadiah Animal age: 27 Animal type: Lemming Animal priority 933514 custArray
+Animal name: annelisse Animal age: 17 Animal type: Alpaca Animal priority 638760 custArray
+Animal name: dysen Animal age: 8 Animal type: Tarsier Animal priority 397898 custArray
+Animal name: emie Animal age: 25 Animal type: Trapdoor spider Animal priority 669778 custArray
+
+-----------------Testing the add duplicates function----------------------
+
+The array size is 28 The tail pointer is at 21
+Animal name: levy Animal age: 20 Animal type: Asp Animal priority 202567 custArray
+Animal name: adalicia Animal age: 20 Animal type: Giant panda Animal priority 631429 custArray
+Animal name: jadiah Animal age: 27 Animal type: Lemming Animal priority 933514 custArray
+Animal name: annelisse Animal age: 17 Animal type: Alpaca Animal priority 638760 custArray
+Animal name: dysen Animal age: 8 Animal type: Tarsier Animal priority 397898 custArray
+Animal name: emie Animal age: 25 Animal type: Trapdoor spider Animal priority 669778 custArray
+Animal name: annelisse Animal age: 17 Animal type: Alpaca Animal priority 638760 custArray
+Animal name: ren Animal age: 24 Animal type: Rook Animal priority 216155 custArray
+Animal name: yuki Animal age: 43 Animal type: Viper Animal priority 138041 custArray
+Animal name: amra Animal age: 38 Animal type: Aardwolf Animal priority 747567 custArray
+Animal name: jadiah Animal age: 27 Animal type: Lemming Animal priority 933514 custArray
+Animal name: adalicia Animal age: 20 Animal type: Giant panda Animal priority 631429 custArray
+Animal name: amra Animal age: 38 Animal type: Aardwolf Animal priority 747567 custArray
+Animal name: dysen Animal age: 8 Animal type: Tarsier Animal priority 397898 custArray
+Animal name: levy Animal age: 20 Animal type: Asp Animal priority 202567 custArray
+Animal name: pierre Animal age: 5 Animal type: Magpie Animal priority 763778 custArray
+Animal name: adaira Animal age: 22 Animal type: Beaver Animal priority 249659 custArray
+Animal name: dwij Animal age: 15 Animal type: Elk Animal priority 951298 custArray
+Animal name: amra Animal age: 38 Animal type: Aardwolf Animal priority 747567 custArray
+Animal name: adalicia Animal age: 20 Animal type: Giant panda Animal priority 631429 custArray
+Animal name: amra Animal age: 38 Animal type: Aardwolf Animal priority 747567 custArray
+
+-----------------Testing the add duplicates function----------------------
+=================Finding Duplicates of the First Element==================
+The 0 duplicate is Animal name: levy Animal age: 20 Animal type: Asp Animal priority 202567
+The 1 duplicate is Animal name: levy Animal age: 20 Animal type: Asp Animal priority 202567
+=================Removing Duplicates of the First Element==================
+-----------------Testing the remove all duplicates function----------------------
+
+The array size is 28 The tail pointer is at 19
+Animal name: adalicia Animal age: 20 Animal type: Giant panda Animal priority 631429 custArray
+Animal name: jadiah Animal age: 27 Animal type: Lemming Animal priority 933514 custArray
+Animal name: annelisse Animal age: 17 Animal type: Alpaca Animal priority 638760 custArray
+Animal name: dysen Animal age: 8 Animal type: Tarsier Animal priority 397898 custArray
+Animal name: emie Animal age: 25 Animal type: Trapdoor spider Animal priority 669778 custArray
+Animal name: annelisse Animal age: 17 Animal type: Alpaca Animal priority 638760 custArray
+Animal name: ren Animal age: 24 Animal type: Rook Animal priority 216155 custArray
+Animal name: yuki Animal age: 43 Animal type: Viper Animal priority 138041 custArray
+Animal name: amra Animal age: 38 Animal type: Aardwolf Animal priority 747567 custArray
+Animal name: jadiah Animal age: 27 Animal type: Lemming Animal priority 933514 custArray
+Animal name: adalicia Animal age: 20 Animal type: Giant panda Animal priority 631429 custArray
+Animal name: amra Animal age: 38 Animal type: Aardwolf Animal priority 747567 custArray
+Animal name: dysen Animal age: 8 Animal type: Tarsier Animal priority 397898 custArray
+Animal name: pierre Animal age: 5 Animal type: Magpie Animal priority 763778 custArray
+Animal name: adaira Animal age: 22 Animal type: Beaver Animal priority 249659 custArray
+Animal name: dwij Animal age: 15 Animal type: Elk Animal priority 951298 custArray
+Animal name: amra Animal age: 38 Animal type: Aardwolf Animal priority 747567 custArray
+Animal name: adalicia Animal age: 20 Animal type: Giant panda Animal priority 631429 custArray
+Animal name: amra Animal age: 38 Animal type: Aardwolf Animal priority 747567 custArray
+
+------------------Sorting the Array----------------------
+=================Sorting the animals by Priority ==================
+
+The array size is 30 The tail pointer is at 15
+Animal name: yuki Animal age: 43 Animal type: Viper Animal priority 138041 custArray
+Animal name: levy Animal age: 20 Animal type: Asp Animal priority 202567 custArray
+Animal name: ren Animal age: 24 Animal type: Rook Animal priority 216155 custArray
+Animal name: adaira Animal age: 22 Animal type: Beaver Animal priority 249659 custArray
+Animal name: dysen Animal age: 8 Animal type: Tarsier Animal priority 397898 custArray
+Animal name: matthieu Animal age: 44 Animal type: Swift Animal priority 591499 custArray
+Animal name: adalicia Animal age: 20 Animal type: Giant panda Animal priority 631429 custArray
+Animal name: annelisse Animal age: 17 Animal type: Alpaca Animal priority 638760 custArray
+Animal name: emie Animal age: 25 Animal type: Trapdoor spider Animal priority 669778 custArray
+Animal name: zhyair Animal age: 37 Animal type: Tiger shark Animal priority 715297 custArray
+Animal name: amra Animal age: 38 Animal type: Aardwolf Animal priority 747567 custArray
+Animal name: pierre Animal age: 5 Animal type: Magpie Animal priority 763778 custArray
+Animal name: jadiah Animal age: 27 Animal type: Lemming Animal priority 933514 custArray
+Animal name: dwij Animal age: 15 Animal type: Elk Animal priority 951298 custArray
+Animal name: carrigan Animal age: 10 Animal type: Wildebeest Animal priority 964995 custArray
+

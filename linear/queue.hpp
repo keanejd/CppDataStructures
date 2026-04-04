@@ -27,11 +27,11 @@ class queue {
 
 
 
-        int getSize(){return list->getSize();}
+        int getSize()const{return list->getSize();}
 
-        bool isEmpty(){ return getSize() == 0 ;}
+        bool isEmpty()const{ return getSize() == 0 ;}
 
-        T peek() { 
+        T peek() const { 
             if( isEmpty() ) {
                 std::cout << "The queue is Empty";
                 return T();
@@ -40,7 +40,7 @@ class queue {
             return list->peekFront();
         }
 
-        T poll() { 
+        T poll() const { 
             if( isEmpty() ) {
                 std::cout<<" The queue is Empty";
                 return T();

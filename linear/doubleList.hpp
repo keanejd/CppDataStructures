@@ -58,8 +58,8 @@ class doubleList {
 
         doubleNode<T>* getHead() { return head;}
         doubleNode<T>* getTail() { return tail;}
-        int getSize() {return size;}
-        bool isEmpty() { return head == nullptr && tail == nullptr;}
+        int getSize() const {return size;}
+        bool isEmpty() const { return head == nullptr && tail == nullptr;}
 
         void clear() {
             doubleNode<T>*  current = head;
@@ -100,7 +100,7 @@ class doubleList {
             addFront(_data);
         }
 
-        T removeFront() {
+        T removeFront(){
             if( isEmpty() ) return T();
 
             T data = head->getData();
@@ -132,17 +132,17 @@ class doubleList {
             return data;
         }
 
-        T peekFront(){
+        T peekFront()const{
             if( isEmpty() ) return T();
             return head->getData();
         }
 
-        T peekRear() {
+        T peekRear() const {
             if( isEmpty() ) return T();
             return tail->getData();
         }
 
-        T removeAtIndex(int _index) {
+        T removeAtIndex (int _index) {
             if(_index >= size || _index < 0 ) {
                 std::cout<<"Check your _index value \n";
                 return T();
@@ -173,7 +173,7 @@ class doubleList {
             return false;
         }
 
-        int indexOf(const T& _data){
+        int indexOf (const T& _data){
             
             doubleNode<T>* temp;
             int index = 0;
