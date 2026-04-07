@@ -11,7 +11,6 @@ class BSTree {
         TreeNode<T> * root;
         int nodeCount;
 
-
         // pass the root --> to this function for adding
         TreeNode<T> * add(TreeNode<T>* _node, const T& _data) {
             if(_node == nullptr)
@@ -84,6 +83,21 @@ class BSTree {
             return _node;
         }
 
+        // private section, alongside add/remove/contains/etc.
+        void destroy(TreeNode<T>* _node) {
+            if (_node == nullptr) return;
+            destroy(_node->getLeft());
+             destroy(_node->getRight());
+            delete _node;
+        }
+
+        TreeNode<T>* copyTree(TreeNode<T>* _node) {
+            if (_node == nullptr) return nullptr;
+                TreeNode<T>* newNode = new TreeNode<T>(_node->getData());
+                newNode->setLeft(copyTree(_node->getLeft()));
+                newNode->setRight(copyTree(_node->getRight()));
+                return newNode;
+        }
 
     public:
         BSTree() : root(nullptr), nodeCount(0) {}
@@ -91,6 +105,23 @@ class BSTree {
             root = new TreeNode(_data);
             nodeCount++;
         } 
+
+        ~BSTree() {
+           destroy(this->root);
+           this->root = nullptr;
+        }
+
+    BSTree(const BSTree<T>& _other) : nodeCount(_other.nodeCount) {
+        this->root = copyTree(_other.root);
+    }
+
+    BSTree<T>& operator=(const BSTree<T>& _other) {
+        if (this == &_other) return *this;
+        destroy(this->root);
+        this->root = copyTree(_other.root);
+        this->nodeCount = _other.nodeCount;
+        return *this;
+    }
 
         TreeNode<T> * getRoot() const {return root;}
 
