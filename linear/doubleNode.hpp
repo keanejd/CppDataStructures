@@ -9,8 +9,8 @@ class doubleNode {
         doubleNode<T>* prev;
     
     public:
-        doubleNode() : data(T()), next(nullptr), prev(nullptr) {}
         doubleNode(const T& _data) : data(_data), next(nullptr), prev(nullptr) {}
+        doubleNode() : doubleNode(T()) {}
         ~doubleNode() = default;
 
         doubleNode(const doubleNode<T>& _other) : data(_other.data), next(nullptr), prev(nullptr) {}
