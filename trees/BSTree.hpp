@@ -93,7 +93,7 @@ class BSTree {
 
         TreeNode<T>* copyTree(TreeNode<T>* _node) {
             if (_node == nullptr) return nullptr;
-                TreeNode<T>* newNode = new TreeNode<T>(_node->getData());
+                TreeNode<T>* newNode = new TreeNode<T>(*_node);
                 newNode->setLeft(copyTree(_node->getLeft()));
                 newNode->setRight(copyTree(_node->getRight()));
                 return newNode;
