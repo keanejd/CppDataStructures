@@ -114,6 +114,7 @@ void testTree() {
 
     BSTree<Animal> * tree = new BSTree<Animal>();
     BSTree<int> * intTree = new BSTree<int>();
+    BSTree<int> * copyTree = new BSTree<int>();
 
     for(int i = 0; i < test->getSize()/10; i++) {
         intTree->addNode(test->randomNumber(0,100));
@@ -134,9 +135,11 @@ void testTree() {
     levelOrder(*tree);
     printQueue(*testQueue);
     printTree(*intTree);
-
+    copyTree = intTree;
+    printTree(*copyTree);
+    
     delete test;
     delete testQueue;
     delete tree;
     delete intTree;
-}
+};
