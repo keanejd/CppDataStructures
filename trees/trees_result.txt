@@ -1,4 +1,5 @@
-The height of the Tree is: 6
+Copying the trees ___________-------___________--------->
+The height of the Tree is: 7
 
 The tree has : 11 nodes
 Log2 of node count: 3.45943
@@ -7,71 +8,71 @@ Does the tree contain: true
 
 Was the node removed: true
 
-The height of the Tree is: 6
+The height of the Tree is: 7
 
 The tree has : 10 nodes
 Log2 of node count: 3.32193
 
 ----------Testing the pre order traversal---------------
-Animal name: kaliyan Animal age: 19 Animal type: Koi Animal priority 334515
-Animal name: leasia Animal age: 32 Animal type: Marmoset Animal priority 69390
-Animal name: aamani Animal age: 11 Animal type: Prawn Animal priority 78391
-Animal name: wynter Animal age: 48 Animal type: Clownfish Animal priority 536499
-Animal name: ogechi Animal age: 21 Animal type: Gazelle Animal priority 618840
-Animal name: alouette Animal age: 41 Animal type: Jellyfish Animal priority 591438
-Animal name: abeera Animal age: 27 Animal type: Monitor lizard Animal priority 934607
-Animal name: darasimi Animal age: 23 Animal type: Caterpillar Animal priority 852238
-Animal name: carmani Animal age: 43 Animal type: Guan Animal priority 862719
-Animal name: johaniel Animal age: 8 Animal type: Reptile Animal priority 942730
-The height of the Tree is: 6
+Animal name: kalin Animal age: 46 Animal type: Quelea Animal priority 691281
+Animal name: zariyah Animal age: 8 Animal type: Saber-toothed cat Animal priority 10338
+Animal name: meena Animal age: 32 Animal type: Sperm whale Animal priority 221236
+Animal name: alishba Animal age: 2 Animal type: Tortoise Animal priority 131448
+Animal name: chistopher Animal age: 18 Animal type: Wolf Animal priority 93770
+Animal name: brennex Animal age: 23 Animal type: Asp Animal priority 562836
+Animal name: colby Animal age: 2 Animal type: Beaked whale Animal priority 497428
+Animal name: barnaby Animal age: 14 Animal type: Water buffalo Animal priority 291597
+Animal name: rydder Animal age: 39 Animal type: Arctic Wolf Animal priority 309838
+Animal name: emmilyn Animal age: 18 Animal type: Cape buffalo Animal priority 949951
+The height of the Tree is: 7
 
 The tree has : 10 nodes
 Log2 of node count: 3.32193
 
 ----------Testing the post order traversal---------------
-Animal name: aamani Animal age: 11 Animal type: Prawn Animal priority 78391
-Animal name: leasia Animal age: 32 Animal type: Marmoset Animal priority 69390
-Animal name: alouette Animal age: 41 Animal type: Jellyfish Animal priority 591438
-Animal name: carmani Animal age: 43 Animal type: Guan Animal priority 862719
-Animal name: darasimi Animal age: 23 Animal type: Caterpillar Animal priority 852238
-Animal name: johaniel Animal age: 8 Animal type: Reptile Animal priority 942730
-Animal name: abeera Animal age: 27 Animal type: Monitor lizard Animal priority 934607
-Animal name: ogechi Animal age: 21 Animal type: Gazelle Animal priority 618840
-Animal name: wynter Animal age: 48 Animal type: Clownfish Animal priority 536499
-Animal name: kaliyan Animal age: 19 Animal type: Koi Animal priority 334515
-The height of the Tree is: 6
+Animal name: chistopher Animal age: 18 Animal type: Wolf Animal priority 93770
+Animal name: alishba Animal age: 2 Animal type: Tortoise Animal priority 131448
+Animal name: rydder Animal age: 39 Animal type: Arctic Wolf Animal priority 309838
+Animal name: barnaby Animal age: 14 Animal type: Water buffalo Animal priority 291597
+Animal name: colby Animal age: 2 Animal type: Beaked whale Animal priority 497428
+Animal name: brennex Animal age: 23 Animal type: Asp Animal priority 562836
+Animal name: meena Animal age: 32 Animal type: Sperm whale Animal priority 221236
+Animal name: zariyah Animal age: 8 Animal type: Saber-toothed cat Animal priority 10338
+Animal name: emmilyn Animal age: 18 Animal type: Cape buffalo Animal priority 949951
+Animal name: kalin Animal age: 46 Animal type: Quelea Animal priority 691281
+The height of the Tree is: 7
 
 The tree has : 10 nodes
 Log2 of node count: 3.32193
 
 ----------Testing the in order traversal---------------
-Animal name: leasia Animal age: 32 Animal type: Marmoset Animal priority 69390
-Animal name: aamani Animal age: 11 Animal type: Prawn Animal priority 78391
-Animal name: kaliyan Animal age: 19 Animal type: Koi Animal priority 334515
-Animal name: wynter Animal age: 48 Animal type: Clownfish Animal priority 536499
-Animal name: alouette Animal age: 41 Animal type: Jellyfish Animal priority 591438
-Animal name: ogechi Animal age: 21 Animal type: Gazelle Animal priority 618840
-Animal name: darasimi Animal age: 23 Animal type: Caterpillar Animal priority 852238
-Animal name: carmani Animal age: 43 Animal type: Guan Animal priority 862719
-Animal name: abeera Animal age: 27 Animal type: Monitor lizard Animal priority 934607
-Animal name: johaniel Animal age: 8 Animal type: Reptile Animal priority 942730
-The height of the Tree is: 6
+Animal name: zariyah Animal age: 8 Animal type: Saber-toothed cat Animal priority 10338
+Animal name: chistopher Animal age: 18 Animal type: Wolf Animal priority 93770
+Animal name: alishba Animal age: 2 Animal type: Tortoise Animal priority 131448
+Animal name: meena Animal age: 32 Animal type: Sperm whale Animal priority 221236
+Animal name: barnaby Animal age: 14 Animal type: Water buffalo Animal priority 291597
+Animal name: rydder Animal age: 39 Animal type: Arctic Wolf Animal priority 309838
+Animal name: colby Animal age: 2 Animal type: Beaked whale Animal priority 497428
+Animal name: brennex Animal age: 23 Animal type: Asp Animal priority 562836
+Animal name: kalin Animal age: 46 Animal type: Quelea Animal priority 691281
+Animal name: emmilyn Animal age: 18 Animal type: Cape buffalo Animal priority 949951
+The height of the Tree is: 7
 
 The tree has : 10 nodes
 Log2 of node count: 3.32193
 
 ----------Testing the level order traversal---------------
-Animal name: kaliyan Animal age: 19 Animal type: Koi Animal priority 334515
-Animal name: wynter Animal age: 48 Animal type: Clownfish Animal priority 536499
-Animal name: leasia Animal age: 32 Animal type: Marmoset Animal priority 69390
-Animal name: ogechi Animal age: 21 Animal type: Gazelle Animal priority 618840
-Animal name: aamani Animal age: 11 Animal type: Prawn Animal priority 78391
-Animal name: abeera Animal age: 27 Animal type: Monitor lizard Animal priority 934607
-Animal name: alouette Animal age: 41 Animal type: Jellyfish Animal priority 591438
-Animal name: johaniel Animal age: 8 Animal type: Reptile Animal priority 942730
-Animal name: darasimi Animal age: 23 Animal type: Caterpillar Animal priority 852238
-Animal name: carmani Animal age: 43 Animal type: Guan Animal priority 862719
-The height of the Tree is: 6
+Animal name: kalin Animal age: 46 Animal type: Quelea Animal priority 691281
+Animal name: emmilyn Animal age: 18 Animal type: Cape buffalo Animal priority 949951
+Animal name: zariyah Animal age: 8 Animal type: Saber-toothed cat Animal priority 10338
+Animal name: meena Animal age: 32 Animal type: Sperm whale Animal priority 221236
+Animal name: brennex Animal age: 23 Animal type: Asp Animal priority 562836
+Animal name: alishba Animal age: 2 Animal type: Tortoise Animal priority 131448
+Animal name: colby Animal age: 2 Animal type: Beaked whale Animal priority 497428
+Animal name: chistopher Animal age: 18 Animal type: Wolf Animal priority 93770
+Animal name: barnaby Animal age: 14 Animal type: Water buffalo Animal priority 291597
+Animal name: rydder Animal age: 39 Animal type: Arctic Wolf Animal priority 309838
+The height of the Tree is: 7
 
 The tree has : 10 nodes
 Log2 of node count: 3.32193
@@ -80,27 +81,39 @@ Log2 of node count: 3.32193
 The Queue size is 10
 
 This is a queue of size 10
-0. Animal name: wynter Animal age: 48 Animal type: Clownfish Animal priority 536499 DL-->
-1. Animal name: ogechi Animal age: 21 Animal type: Gazelle Animal priority 618840 DL-->
-2. Animal name: abeera Animal age: 27 Animal type: Monitor lizard Animal priority 934607 DL-->
-3. Animal name: leasia Animal age: 32 Animal type: Marmoset Animal priority 69390 DL-->
-4. Animal name: darasimi Animal age: 23 Animal type: Caterpillar Animal priority 852238 DL-->
-5. Animal name: carmani Animal age: 43 Animal type: Guan Animal priority 862719 DL-->
-6. Animal name: aamani Animal age: 11 Animal type: Prawn Animal priority 78391 DL-->
-7. Animal name: johaniel Animal age: 8 Animal type: Reptile Animal priority 942730 DL-->
-8. Animal name: alouette Animal age: 41 Animal type: Jellyfish Animal priority 591438 DL-->
-9. Animal name: kaliyan Animal age: 19 Animal type: Koi Animal priority 334515 DL-->
+0. Animal name: emmilyn Animal age: 18 Animal type: Cape buffalo Animal priority 949951 DL-->
+1. Animal name: zariyah Animal age: 8 Animal type: Saber-toothed cat Animal priority 10338 DL-->
+2. Animal name: meena Animal age: 32 Animal type: Sperm whale Animal priority 221236 DL-->
+3. Animal name: brennex Animal age: 23 Animal type: Asp Animal priority 562836 DL-->
+4. Animal name: alishba Animal age: 2 Animal type: Tortoise Animal priority 131448 DL-->
+5. Animal name: colby Animal age: 2 Animal type: Beaked whale Animal priority 497428 DL-->
+6. Animal name: barnaby Animal age: 14 Animal type: Water buffalo Animal priority 291597 DL-->
+7. Animal name: kalin Animal age: 46 Animal type: Quelea Animal priority 691281 DL-->
+8. Animal name: rydder Animal age: 39 Animal type: Arctic Wolf Animal priority 309838 DL-->
+9. Animal name: chistopher Animal age: 18 Animal type: Wolf Animal priority 93770 DL-->
 The end of the DoubleList of size  10
 
 
 
 -----------Printing a Tree-------------------------------------
-The height of the Tree is: 4
+The height of the Tree is: 5
 
 The tree has : 9 nodes
 Log2 of node count: 3.16993
 
-       67       
-   37       94   
- 35   48   73     
-28   45 62        
+               81               
+       72               92       
+   54       75       82           
+ 45           76                 
+  51                            
+-----------Printing a Tree-------------------------------------
+The height of the Tree is: 5
+
+The tree has : 9 nodes
+Log2 of node count: 3.16993
+
+               81               
+       72               92       
+   54       75       82           
+ 45           76                 
+  51                            

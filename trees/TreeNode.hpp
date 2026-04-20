@@ -17,8 +17,8 @@ public:
     ~TreeNode() = default;
     TreeNode(const TreeNode<T>& _other) : TreeNode(_other.data) {}
 
-    TreeNode<T>& operator=(const TreeNode<T>& _other) const {
-        if(this != _other){
+    TreeNode<T>& operator=(const TreeNode<T>& _other) {
+        if(this != &_other){
              data = _other.data;
         }
     
@@ -39,8 +39,8 @@ public:
 
     //getters
     const T&  getData() const {return data;}
-    TreeNode<T> * getLeft()const{ return left;}
-    TreeNode<T> * getRight() const { return right;}
+    TreeNode<T>  * getLeft()const{ return left;}
+    TreeNode<T>  * getRight() const { return right;}
 
     //setters
     void setData(const T& _data) { data = _data;}

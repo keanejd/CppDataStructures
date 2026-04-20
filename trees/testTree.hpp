@@ -1,6 +1,7 @@
 #pragma once
 #include "../linear/linearTest.hpp"
-#include "BSTree.hpp" 
+#include "BSTree.hpp"
+#include "AVLTree.hpp"
 #include <cmath>
 #include <vector>
 #include<string>
@@ -103,6 +104,13 @@ void fillMatrix( vector<vector<string>>& _matrix, TreeNode<T>* _node, int _row, 
     fillMatrix(_matrix, _node->getLeft(),  _row + 1, _left, mid - 1);
     fillMatrix(_matrix, _node->getRight(), _row + 1, mid + 1, _right);
 }
+
+template<typename T>
+void testCopy( BSTree<T>& _orig,  BSTree<T>& _copy) {
+  _copy = _orig;
+  std::cout<<"Copying the trees ___________-------___________--------->"<<std::endl;
+
+}
 void testTree() {
     AnimalTest * test = fillThezoo(100, 1, 50);
     queue<Animal>* testQueue = new queue<Animal>();
@@ -114,10 +122,16 @@ void testTree() {
 
     BSTree<Animal> * tree = new BSTree<Animal>();
     BSTree<int> * intTree = new BSTree<int>();
-    BSTree<int> * copyTree = new BSTree<int>();
+    BSTree<int> copyTree;
+    AVLTree<int> * avlTree1 = new AVLTree<int>();
+
+
+
+    testCopy(copyTree, *intTree);
 
     for(int i = 0; i < test->getSize()/10; i++) {
         intTree->addNode(test->randomNumber(0,100));
+        avlTree1->inserted(test->randomNumber(0,100));
     }
 
 
@@ -135,8 +149,8 @@ void testTree() {
     levelOrder(*tree);
     printQueue(*testQueue);
     printTree(*intTree);
-    copyTree = intTree;
-    printTree(*copyTree);
+    copyTree = *intTree;
+    printTree(copyTree);
     
     delete test;
     delete testQueue;
