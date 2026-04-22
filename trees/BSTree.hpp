@@ -2,11 +2,12 @@
 #include<iostream>
 #include<algorithm>
 #include "TreeNode.hpp"
+#include "BinaryTree.hpp"
 #include "../linear/stack.hpp"
 #include "../linear/queue.hpp"
 
-template <typename T>
-class BSTree {
+template<typename T>
+class BSTree : public BinaryTree<T> {
     private:
         TreeNode<T> * root;
         int nodeCount;
@@ -99,10 +100,10 @@ class BSTree {
                 return newNode;
         }
 
-    public:
-        BSTree() : root(nullptr), nodeCount(0) {}
-        BSTree(const T& _data) {
-            root = new TreeNode(_data);
+  public:
+      BSTree() : root(nullptr), nodeCount(0) {}
+      BSTree(const T& _data) {
+          root = new TreeNode<T>(_data);
             nodeCount++;
         } 
 
@@ -111,25 +112,25 @@ class BSTree {
            this->root = nullptr;
         }
 
-    BSTree(const BSTree<T>& _other) : nodeCount(_other.nodeCount) {
-        this->root = copyTree(_other.root);
-    }
+       BSTree(const BSTree<T>& _other) : nodeCount(_other.nodeCount) {
+          this->root = copyTree(_other.root);
+        }
 
-    BSTree<T>& operator=(const BSTree<T>& _other) {
-        if (this == &_other) return *this;
-        destroy(this->root);
-        this->root = copyTree(_other.root);
-        this->nodeCount = _other.nodeCount;
-        return *this;
-    }
+       BSTree<T>& operator=(const BSTree<T>& _other) {
+          if (this == &_other) return *this;
+          destroy(this->root);
+           this->root = copyTree(_other.root);
+          this->nodeCount = _other.nodeCount;
+           return *this;
+        }
 
-        TreeNode<T> * getRoot() const {return root;}
+        BinaryNode<T> * getRoot() const override {return root;}
 
-        int getSize(){ return nodeCount;}
+        int size() override { return nodeCount;}
 
-        bool isEmpty() { return nodeCount == 0;}
+        bool isEmpty() override { return nodeCount == 0;}
         
-        bool addNode(const T& _data) {
+        bool insert(const T& _data) override  {
             if( contains(root, _data) )
                 return false;
             else {
@@ -139,7 +140,7 @@ class BSTree {
             }
         }
 
-        bool removeNode(const T& _data) {
+        bool remove(const T& _data) override {
             if( contains(root, _data) ){
                 nodeCount--;
                 root = remove(root, _data);
@@ -149,11 +150,11 @@ class BSTree {
                 return false;
         }
         
-        bool conatainsData(const T& _data) {
+        bool contains(const T& _data) override {
             return contains(root, _data);
         }
 
-        int treeHeight() {
+        int height() override {
             return height(root);
         }
 
@@ -208,15 +209,15 @@ class BSTree {
                                 nodeStack.push(node);
                                 node = node->getLeft();
                             }
-                        }
-                        else if (_type == traversalType::POSTORDER) {
-                               nodeStack.push(_root);
-                                while (!nodeStack.isEmpty()) {
+                          }
+                        else if(_type == traversalType::POSTORDER){
+                              nodeStack.push(_root);
+                              while(!nodeStack.isEmpty()){
                                     TreeNode<T>* node = nodeStack.pop();
                                     nodeStack2.push(node);
                                     if (node->getLeft() != nullptr) nodeStack.push(node->getLeft());
                                     if (node->getRight() != nullptr) nodeStack.push(node->getRight());
-                                }
+                              }
                         }
                         else 
                             nodeStack.push(_root);

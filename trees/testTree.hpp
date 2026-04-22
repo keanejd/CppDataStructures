@@ -13,26 +13,26 @@ using std::to_string;
 
 
 template<typename T>
-void treeHeight(BSTree<T>& _bst) {
-    std::cout<<"The height of the Tree is: "<<_bst.treeHeight()<<"\n\n";
-    std::cout<<"The tree has : "<< _bst.getSize()<<" nodes"<<std::endl;
-    std::cout<<"Log2 of node count: "<<log2(_bst.getSize())<<"\n\n";
+void treeHeight(BinaryTree<T>& _bst) {
+    std::cout<<"The height of the Tree is: "<<_bst.height()<<"\n\n";
+    std::cout<<"The tree has : "<< _bst.size()<<" nodes"<<std::endl;
+    std::cout<<"Log2 of node count: "<<log2(_bst.size())<<"\n\n";
 }
 
 template<typename T>
-void fillTree(T * _a, int _size, BSTree<T>& _bst){
+void fillTree(T * _a, int _size, BinaryTree<T>& _bst){
     for(int i = 0; i < _size; i++)
-        _bst.addNode(_a[i]);
+        _bst.insert(_a[i]);
     treeHeight(_bst);
 }
 
 template<typename T>
-void removeData(BSTree<T>& _bst, const T& _data){
+void removeData(BinaryTree<T>& _bst, const T& _data){
     std::cout<<"Does the tree contain: "<<std::boolalpha 
-    <<_bst.conatainsData(_data)<<"\n\n";
+    <<_bst.contains(_data)<<"\n\n";
 
     std::cout<<"Was the node removed: "<<std::boolalpha<<
-     _bst.removeNode(_data)<< "\n\n";
+     _bst.remove(_data)<< "\n\n";
      treeHeight(_bst);
 }
 
@@ -76,8 +76,8 @@ void levelOrder(BSTree<T>& _bst) {
 }
 
 template<typename T>
-void printTree(BSTree<T>& _bst) {
-    unsigned int h = _bst.treeHeight();
+void printTree(BinaryTree<T>& _bst) {
+    unsigned int h = _bst.height();
     unsigned int width = (1 << h) - 1; // 2^h - 1
     std::cout<<"-----------Printing a Tree-------------------------------------"<<std::endl;    
     treeHeight(_bst);
@@ -95,7 +95,7 @@ void printTree(BSTree<T>& _bst) {
 }
 
 template<typename T>
-void fillMatrix( vector<vector<string>>& _matrix, TreeNode<T>* _node, int _row, int _left, int _right) {
+void fillMatrix( vector<vector<string>>& _matrix, BinaryNode<T>* _node, int _row, int _left, int _right) {
     if (_node == nullptr) return;
     
     int mid = (_left + _right) / 2;
@@ -106,7 +106,7 @@ void fillMatrix( vector<vector<string>>& _matrix, TreeNode<T>* _node, int _row, 
 }
 
 template<typename T>
-void testCopy( BSTree<T>& _orig,  BSTree<T>& _copy) {
+void testCopy( BinaryTree<T>& _orig,  BinaryTree<T>& _copy) {
   _copy = _orig;
   std::cout<<"Copying the trees ___________-------___________--------->"<<std::endl;
 
@@ -130,8 +130,8 @@ void testTree() {
     testCopy(copyTree, *intTree);
 
     for(int i = 0; i < test->getSize()/10; i++) {
-        intTree->addNode(test->randomNumber(0,100));
-        avlTree1->inserted(test->randomNumber(0,100));
+        intTree->insert(test->randomNumber(0,100));
+        avlTree1->insert(test->randomNumber(0,100));
     }
 
 

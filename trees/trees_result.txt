@@ -1,5 +1,5 @@
 Copying the trees ___________-------___________--------->
-The height of the Tree is: 7
+The height of the Tree is: 5
 
 The tree has : 11 nodes
 Log2 of node count: 3.45943
@@ -8,71 +8,71 @@ Does the tree contain: true
 
 Was the node removed: true
 
-The height of the Tree is: 7
+The height of the Tree is: 5
 
 The tree has : 10 nodes
 Log2 of node count: 3.32193
 
 ----------Testing the pre order traversal---------------
-Animal name: kalin Animal age: 46 Animal type: Quelea Animal priority 691281
-Animal name: zariyah Animal age: 8 Animal type: Saber-toothed cat Animal priority 10338
-Animal name: meena Animal age: 32 Animal type: Sperm whale Animal priority 221236
-Animal name: alishba Animal age: 2 Animal type: Tortoise Animal priority 131448
-Animal name: chistopher Animal age: 18 Animal type: Wolf Animal priority 93770
-Animal name: brennex Animal age: 23 Animal type: Asp Animal priority 562836
-Animal name: colby Animal age: 2 Animal type: Beaked whale Animal priority 497428
-Animal name: barnaby Animal age: 14 Animal type: Water buffalo Animal priority 291597
-Animal name: rydder Animal age: 39 Animal type: Arctic Wolf Animal priority 309838
-Animal name: emmilyn Animal age: 18 Animal type: Cape buffalo Animal priority 949951
-The height of the Tree is: 7
+Animal name: mel Animal age: 17 Animal type: Sawfish Animal priority 634935
+Animal name: dametrius Animal age: 4 Animal type: Fruit bat Animal priority 401189
+Animal name: henley Animal age: 23 Animal type: Rhinoceros Animal priority 378598
+Animal name: gagan Animal age: 39 Animal type: Prairie dog Animal priority 391061
+Animal name: janhvi Animal age: 14 Animal type: Sailfish Animal priority 579972
+Animal name: zaiyden Animal age: 23 Animal type: Possum Animal priority 419228
+Animal name: gavin Animal age: 23 Animal type: Clam Animal priority 579459
+Animal name: lalitha Animal age: 40 Animal type: Beaked whale Animal priority 716700
+Animal name: juandedios Animal age: 36 Animal type: Saber-toothed cat Animal priority 728983
+Animal name: rachelle Animal age: 38 Animal type: Wallaby Animal priority 858942
+The height of the Tree is: 5
 
 The tree has : 10 nodes
 Log2 of node count: 3.32193
 
 ----------Testing the post order traversal---------------
-Animal name: chistopher Animal age: 18 Animal type: Wolf Animal priority 93770
-Animal name: alishba Animal age: 2 Animal type: Tortoise Animal priority 131448
-Animal name: rydder Animal age: 39 Animal type: Arctic Wolf Animal priority 309838
-Animal name: barnaby Animal age: 14 Animal type: Water buffalo Animal priority 291597
-Animal name: colby Animal age: 2 Animal type: Beaked whale Animal priority 497428
-Animal name: brennex Animal age: 23 Animal type: Asp Animal priority 562836
-Animal name: meena Animal age: 32 Animal type: Sperm whale Animal priority 221236
-Animal name: zariyah Animal age: 8 Animal type: Saber-toothed cat Animal priority 10338
-Animal name: emmilyn Animal age: 18 Animal type: Cape buffalo Animal priority 949951
-Animal name: kalin Animal age: 46 Animal type: Quelea Animal priority 691281
-The height of the Tree is: 7
+Animal name: gagan Animal age: 39 Animal type: Prairie dog Animal priority 391061
+Animal name: henley Animal age: 23 Animal type: Rhinoceros Animal priority 378598
+Animal name: gavin Animal age: 23 Animal type: Clam Animal priority 579459
+Animal name: zaiyden Animal age: 23 Animal type: Possum Animal priority 419228
+Animal name: janhvi Animal age: 14 Animal type: Sailfish Animal priority 579972
+Animal name: dametrius Animal age: 4 Animal type: Fruit bat Animal priority 401189
+Animal name: rachelle Animal age: 38 Animal type: Wallaby Animal priority 858942
+Animal name: juandedios Animal age: 36 Animal type: Saber-toothed cat Animal priority 728983
+Animal name: lalitha Animal age: 40 Animal type: Beaked whale Animal priority 716700
+Animal name: mel Animal age: 17 Animal type: Sawfish Animal priority 634935
+The height of the Tree is: 5
 
 The tree has : 10 nodes
 Log2 of node count: 3.32193
 
 ----------Testing the in order traversal---------------
-Animal name: zariyah Animal age: 8 Animal type: Saber-toothed cat Animal priority 10338
-Animal name: chistopher Animal age: 18 Animal type: Wolf Animal priority 93770
-Animal name: alishba Animal age: 2 Animal type: Tortoise Animal priority 131448
-Animal name: meena Animal age: 32 Animal type: Sperm whale Animal priority 221236
-Animal name: barnaby Animal age: 14 Animal type: Water buffalo Animal priority 291597
-Animal name: rydder Animal age: 39 Animal type: Arctic Wolf Animal priority 309838
-Animal name: colby Animal age: 2 Animal type: Beaked whale Animal priority 497428
-Animal name: brennex Animal age: 23 Animal type: Asp Animal priority 562836
-Animal name: kalin Animal age: 46 Animal type: Quelea Animal priority 691281
-Animal name: emmilyn Animal age: 18 Animal type: Cape buffalo Animal priority 949951
-The height of the Tree is: 7
+Animal name: henley Animal age: 23 Animal type: Rhinoceros Animal priority 378598
+Animal name: gagan Animal age: 39 Animal type: Prairie dog Animal priority 391061
+Animal name: dametrius Animal age: 4 Animal type: Fruit bat Animal priority 401189
+Animal name: zaiyden Animal age: 23 Animal type: Possum Animal priority 419228
+Animal name: gavin Animal age: 23 Animal type: Clam Animal priority 579459
+Animal name: janhvi Animal age: 14 Animal type: Sailfish Animal priority 579972
+Animal name: mel Animal age: 17 Animal type: Sawfish Animal priority 634935
+Animal name: lalitha Animal age: 40 Animal type: Beaked whale Animal priority 716700
+Animal name: juandedios Animal age: 36 Animal type: Saber-toothed cat Animal priority 728983
+Animal name: rachelle Animal age: 38 Animal type: Wallaby Animal priority 858942
+The height of the Tree is: 5
 
 The tree has : 10 nodes
 Log2 of node count: 3.32193
 
 ----------Testing the level order traversal---------------
-Animal name: kalin Animal age: 46 Animal type: Quelea Animal priority 691281
-Animal name: emmilyn Animal age: 18 Animal type: Cape buffalo Animal priority 949951
-Animal name: zariyah Animal age: 8 Animal type: Saber-toothed cat Animal priority 10338
-Animal name: meena Animal age: 32 Animal type: Sperm whale Animal priority 221236
-Animal name: brennex Animal age: 23 Animal type: Asp Animal priority 562836
-Animal name: alishba Animal age: 2 Animal type: Tortoise Animal priority 131448
-Animal name: colby Animal age: 2 Animal type: Beaked whale Animal priority 497428
-Animal name: chistopher Animal age: 18 Animal type: Wolf Animal priority 93770
-Animal name: barnaby Animal age: 14 Animal type: Water buffalo Animal priority 291597
-Animal name: rydder Animal age: 39 Animal type: Arctic Wolf Animal priority 309838
-The height of the Tree is: 7
+Animal name: mel Animal age: 17 Animal type: Sawfish Animal priority 634935
+Animal name: lalitha Animal age: 40 Animal type: Beaked whale Animal priority 716700
+Animal name: dametrius Animal age: 4 Animal type: Fruit bat Animal priority 401189
+Animal name: juandedios Animal age: 36 Animal type: Saber-toothed cat Animal priority 728983
+Animal name: janhvi Animal age: 14 Animal type: Sailfish Animal priority 579972
+Animal name: henley Animal age: 23 Animal type: Rhinoceros Animal priority 378598
+Animal name: rachelle Animal age: 38 Animal type: Wallaby Animal priority 858942
+Animal name: zaiyden Animal age: 23 Animal type: Possum Animal priority 419228
+Animal name: gagan Animal age: 39 Animal type: Prairie dog Animal priority 391061
+Animal name: gavin Animal age: 23 Animal type: Clam Animal priority 579459
+The height of the Tree is: 5
 
 The tree has : 10 nodes
 Log2 of node count: 3.32193
@@ -81,16 +81,16 @@ Log2 of node count: 3.32193
 The Queue size is 10
 
 This is a queue of size 10
-0. Animal name: emmilyn Animal age: 18 Animal type: Cape buffalo Animal priority 949951 DL-->
-1. Animal name: zariyah Animal age: 8 Animal type: Saber-toothed cat Animal priority 10338 DL-->
-2. Animal name: meena Animal age: 32 Animal type: Sperm whale Animal priority 221236 DL-->
-3. Animal name: brennex Animal age: 23 Animal type: Asp Animal priority 562836 DL-->
-4. Animal name: alishba Animal age: 2 Animal type: Tortoise Animal priority 131448 DL-->
-5. Animal name: colby Animal age: 2 Animal type: Beaked whale Animal priority 497428 DL-->
-6. Animal name: barnaby Animal age: 14 Animal type: Water buffalo Animal priority 291597 DL-->
-7. Animal name: kalin Animal age: 46 Animal type: Quelea Animal priority 691281 DL-->
-8. Animal name: rydder Animal age: 39 Animal type: Arctic Wolf Animal priority 309838 DL-->
-9. Animal name: chistopher Animal age: 18 Animal type: Wolf Animal priority 93770 DL-->
+0. Animal name: lalitha Animal age: 40 Animal type: Beaked whale Animal priority 716700 DL-->
+1. Animal name: juandedios Animal age: 36 Animal type: Saber-toothed cat Animal priority 728983 DL-->
+2. Animal name: dametrius Animal age: 4 Animal type: Fruit bat Animal priority 401189 DL-->
+3. Animal name: janhvi Animal age: 14 Animal type: Sailfish Animal priority 579972 DL-->
+4. Animal name: zaiyden Animal age: 23 Animal type: Possum Animal priority 419228 DL-->
+5. Animal name: henley Animal age: 23 Animal type: Rhinoceros Animal priority 378598 DL-->
+6. Animal name: gavin Animal age: 23 Animal type: Clam Animal priority 579459 DL-->
+7. Animal name: mel Animal age: 17 Animal type: Sawfish Animal priority 634935 DL-->
+8. Animal name: rachelle Animal age: 38 Animal type: Wallaby Animal priority 858942 DL-->
+9. Animal name: gagan Animal age: 39 Animal type: Prairie dog Animal priority 391061 DL-->
 The end of the DoubleList of size  10
 
 
@@ -101,19 +101,19 @@ The height of the Tree is: 5
 The tree has : 9 nodes
 Log2 of node count: 3.16993
 
-               81               
-       72               92       
-   54       75       82           
- 45           76                 
-  51                            
+               59               
+       23               69       
+   2               68       76   
+                 61           93 
+                            88  
 -----------Printing a Tree-------------------------------------
 The height of the Tree is: 5
 
 The tree has : 9 nodes
 Log2 of node count: 3.16993
 
-               81               
-       72               92       
-   54       75       82           
- 45           76                 
-  51                            
+               59               
+       23               69       
+   2               68       76   
+                 61           93 
+                            88  

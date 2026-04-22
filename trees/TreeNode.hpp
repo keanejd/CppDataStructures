@@ -1,8 +1,8 @@
 #pragma once
 #include<iostream>
-
+#include"BinaryNode.hpp"
 template <typename T>
-class TreeNode {
+class TreeNode : public  BinaryNode<T> {
 
 private:
     T data;
@@ -38,9 +38,9 @@ public:
     }
 
     //getters
-    const T&  getData() const {return data;}
-    TreeNode<T>  * getLeft()const{ return left;}
-    TreeNode<T>  * getRight() const { return right;}
+    const T&  getData() const override {return data;}
+    TreeNode<T> * getLeft() const override { return left;}
+    TreeNode<T> * getRight() const override { return right;}
 
     //setters
     void setData(const T& _data) { data = _data;}
@@ -49,10 +49,9 @@ public:
     void setRightNull() { right = nullptr;}
     void setLeftNull() { left = nullptr; }
 
+
     friend std::ostream& operator<<(std::ostream& os, const TreeNode<T>& _node) {
         os << _node.data;
         return os;
     }
-
-
 };

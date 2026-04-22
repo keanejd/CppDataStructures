@@ -1,8 +1,9 @@
 #pragma once 
 #include "AVLNode.hpp"
+#include "BinaryTree.hpp"
 
 template<typename T>
-class AVLTree {
+class AVLTree : public BinaryTree<T> {
   private: 
     AVLNode<T> * root;
     int nodeCount;
@@ -80,7 +81,7 @@ class AVLTree {
 
      AVLNode<T> * leftLeftCase(AVLNode<T> * _node) {
        return rightRotation(_node);
-     }
+     } 
 
      AVLNode<T> * leftRightCase(AVLNode<T> * _node) {
        _node->setLeft(leftRotation(_node->getLeft()));
@@ -184,26 +185,28 @@ class AVLTree {
         this->nodeCount = _other.nodeCount;
         return * this;
     }
-  
-    int height() { 
+
+    BinaryNode<T> * getRoot() const override { return root; }
+
+    int height() override { 
       if(root == nullptr) return 0;
       
       return root->getHeight();
     }
 
-    int getSize() {
+    int size() override {
       return nodeCount;
     }
 
-    bool isEmpty(){
-      return getSize() == 0;
+    bool isEmpty() override {
+      return size() == 0;
     }
 
-    bool contains(const T & _data){
+    bool contains(const T & _data) override {
       return contains(root, _data);
     }
 
-    bool inserted(const T & _data) {
+    bool insert(const T & _data) override {
       if(!contains(root, _data) ) {
           root = insert(root, _data);
           nodeCount++;
@@ -212,7 +215,7 @@ class AVLTree {
       return false;
     }
 
-    bool remove(T & _data){
+    bool remove(const T & _data) override {
       if(contains(root, _data)){
         root = remove(root, _data);
         nodeCount--;

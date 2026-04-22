@@ -1,14 +1,17 @@
 #pragma once
-#include "TreeNode.hpp"
+#include "BinaryNode.hpp"
+#include <iostream>
 
 template <typename T>
-class AVLNode {
+class AVLNode : public BinaryNode<T> {
     private:
-        int height;
-        int balanceFactor;
+        T data;
         AVLNode<T> * left;
         AVLNode<T> * right;
-        T data;
+        int height;
+        int balanceFactor;
+
+
           
 public:
     AVLNode(const T& _data) : data(_data), left(nullptr), right(nullptr), height(0), balanceFactor(0) {}
@@ -38,9 +41,9 @@ public:
     }
 
     //getters
-    const T&  getData() const {return data;}
-    AVLNode<T>  * getLeft()const{ return left;}
-    AVLNode<T>  * getRight() const { return right;}
+    const  T&  getData() const override {return data;}
+    AVLNode<T>  * getLeft() const override{ return left;}
+    AVLNode<T>  * getRight() const override { return right;}
     int getHeight() const { return height;}
     int getBalanceFactor(){ return balanceFactor;}
 
