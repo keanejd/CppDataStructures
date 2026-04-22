@@ -1,5 +1,5 @@
 Copying the trees ___________-------___________--------->
-The height of the Tree is: 5
+The height of the Tree is: 6
 
 The tree has : 11 nodes
 Log2 of node count: 3.45943
@@ -8,71 +8,71 @@ Does the tree contain: true
 
 Was the node removed: true
 
-The height of the Tree is: 5
+The height of the Tree is: 6
 
 The tree has : 10 nodes
 Log2 of node count: 3.32193
 
 ----------Testing the pre order traversal---------------
-Animal name: mel Animal age: 17 Animal type: Sawfish Animal priority 634935
-Animal name: dametrius Animal age: 4 Animal type: Fruit bat Animal priority 401189
-Animal name: henley Animal age: 23 Animal type: Rhinoceros Animal priority 378598
-Animal name: gagan Animal age: 39 Animal type: Prairie dog Animal priority 391061
-Animal name: janhvi Animal age: 14 Animal type: Sailfish Animal priority 579972
-Animal name: zaiyden Animal age: 23 Animal type: Possum Animal priority 419228
-Animal name: gavin Animal age: 23 Animal type: Clam Animal priority 579459
-Animal name: lalitha Animal age: 40 Animal type: Beaked whale Animal priority 716700
-Animal name: juandedios Animal age: 36 Animal type: Saber-toothed cat Animal priority 728983
-Animal name: rachelle Animal age: 38 Animal type: Wallaby Animal priority 858942
-The height of the Tree is: 5
+Animal name: azrael Animal age: 45 Animal type: Cricket Animal priority 862901
+Animal name: kavani Animal age: 24 Animal type: Ocelot Animal priority 833840
+Animal name: stephone Animal age: 20 Animal type: English pointer Animal priority 152887
+Animal name: eliya Animal age: 22 Animal type: Porpoise Animal priority 40639
+Animal name: tiahna Animal age: 33 Animal type: Tarantula Animal priority 141815
+Animal name: winslow Animal age: 9 Animal type: Bandicoot Animal priority 204348
+Animal name: gennaro Animal age: 10 Animal type: Dinosaur Animal priority 449731
+Animal name: zuhaib Animal age: 18 Animal type: Booby Animal priority 395679
+Animal name: daila Animal age: 48 Animal type: Polar bear Animal priority 756764
+Animal name: bexleigh Animal age: 49 Animal type: Antlion Animal priority 948389
+The height of the Tree is: 6
 
 The tree has : 10 nodes
 Log2 of node count: 3.32193
 
 ----------Testing the post order traversal---------------
-Animal name: gagan Animal age: 39 Animal type: Prairie dog Animal priority 391061
-Animal name: henley Animal age: 23 Animal type: Rhinoceros Animal priority 378598
-Animal name: gavin Animal age: 23 Animal type: Clam Animal priority 579459
-Animal name: zaiyden Animal age: 23 Animal type: Possum Animal priority 419228
-Animal name: janhvi Animal age: 14 Animal type: Sailfish Animal priority 579972
-Animal name: dametrius Animal age: 4 Animal type: Fruit bat Animal priority 401189
-Animal name: rachelle Animal age: 38 Animal type: Wallaby Animal priority 858942
-Animal name: juandedios Animal age: 36 Animal type: Saber-toothed cat Animal priority 728983
-Animal name: lalitha Animal age: 40 Animal type: Beaked whale Animal priority 716700
-Animal name: mel Animal age: 17 Animal type: Sawfish Animal priority 634935
-The height of the Tree is: 5
+Animal name: tiahna Animal age: 33 Animal type: Tarantula Animal priority 141815
+Animal name: eliya Animal age: 22 Animal type: Porpoise Animal priority 40639
+Animal name: zuhaib Animal age: 18 Animal type: Booby Animal priority 395679
+Animal name: daila Animal age: 48 Animal type: Polar bear Animal priority 756764
+Animal name: gennaro Animal age: 10 Animal type: Dinosaur Animal priority 449731
+Animal name: winslow Animal age: 9 Animal type: Bandicoot Animal priority 204348
+Animal name: stephone Animal age: 20 Animal type: English pointer Animal priority 152887
+Animal name: kavani Animal age: 24 Animal type: Ocelot Animal priority 833840
+Animal name: bexleigh Animal age: 49 Animal type: Antlion Animal priority 948389
+Animal name: azrael Animal age: 45 Animal type: Cricket Animal priority 862901
+The height of the Tree is: 6
 
 The tree has : 10 nodes
 Log2 of node count: 3.32193
 
 ----------Testing the in order traversal---------------
-Animal name: henley Animal age: 23 Animal type: Rhinoceros Animal priority 378598
-Animal name: gagan Animal age: 39 Animal type: Prairie dog Animal priority 391061
-Animal name: dametrius Animal age: 4 Animal type: Fruit bat Animal priority 401189
-Animal name: zaiyden Animal age: 23 Animal type: Possum Animal priority 419228
-Animal name: gavin Animal age: 23 Animal type: Clam Animal priority 579459
-Animal name: janhvi Animal age: 14 Animal type: Sailfish Animal priority 579972
-Animal name: mel Animal age: 17 Animal type: Sawfish Animal priority 634935
-Animal name: lalitha Animal age: 40 Animal type: Beaked whale Animal priority 716700
-Animal name: juandedios Animal age: 36 Animal type: Saber-toothed cat Animal priority 728983
-Animal name: rachelle Animal age: 38 Animal type: Wallaby Animal priority 858942
-The height of the Tree is: 5
+Animal name: eliya Animal age: 22 Animal type: Porpoise Animal priority 40639
+Animal name: tiahna Animal age: 33 Animal type: Tarantula Animal priority 141815
+Animal name: stephone Animal age: 20 Animal type: English pointer Animal priority 152887
+Animal name: winslow Animal age: 9 Animal type: Bandicoot Animal priority 204348
+Animal name: zuhaib Animal age: 18 Animal type: Booby Animal priority 395679
+Animal name: gennaro Animal age: 10 Animal type: Dinosaur Animal priority 449731
+Animal name: daila Animal age: 48 Animal type: Polar bear Animal priority 756764
+Animal name: kavani Animal age: 24 Animal type: Ocelot Animal priority 833840
+Animal name: azrael Animal age: 45 Animal type: Cricket Animal priority 862901
+Animal name: bexleigh Animal age: 49 Animal type: Antlion Animal priority 948389
+The height of the Tree is: 6
 
 The tree has : 10 nodes
 Log2 of node count: 3.32193
 
 ----------Testing the level order traversal---------------
-Animal name: mel Animal age: 17 Animal type: Sawfish Animal priority 634935
-Animal name: lalitha Animal age: 40 Animal type: Beaked whale Animal priority 716700
-Animal name: dametrius Animal age: 4 Animal type: Fruit bat Animal priority 401189
-Animal name: juandedios Animal age: 36 Animal type: Saber-toothed cat Animal priority 728983
-Animal name: janhvi Animal age: 14 Animal type: Sailfish Animal priority 579972
-Animal name: henley Animal age: 23 Animal type: Rhinoceros Animal priority 378598
-Animal name: rachelle Animal age: 38 Animal type: Wallaby Animal priority 858942
-Animal name: zaiyden Animal age: 23 Animal type: Possum Animal priority 419228
-Animal name: gagan Animal age: 39 Animal type: Prairie dog Animal priority 391061
-Animal name: gavin Animal age: 23 Animal type: Clam Animal priority 579459
-The height of the Tree is: 5
+Animal name: azrael Animal age: 45 Animal type: Cricket Animal priority 862901
+Animal name: bexleigh Animal age: 49 Animal type: Antlion Animal priority 948389
+Animal name: kavani Animal age: 24 Animal type: Ocelot Animal priority 833840
+Animal name: stephone Animal age: 20 Animal type: English pointer Animal priority 152887
+Animal name: winslow Animal age: 9 Animal type: Bandicoot Animal priority 204348
+Animal name: eliya Animal age: 22 Animal type: Porpoise Animal priority 40639
+Animal name: gennaro Animal age: 10 Animal type: Dinosaur Animal priority 449731
+Animal name: tiahna Animal age: 33 Animal type: Tarantula Animal priority 141815
+Animal name: daila Animal age: 48 Animal type: Polar bear Animal priority 756764
+Animal name: zuhaib Animal age: 18 Animal type: Booby Animal priority 395679
+The height of the Tree is: 6
 
 The tree has : 10 nodes
 Log2 of node count: 3.32193
@@ -81,39 +81,43 @@ Log2 of node count: 3.32193
 The Queue size is 10
 
 This is a queue of size 10
-0. Animal name: lalitha Animal age: 40 Animal type: Beaked whale Animal priority 716700 DL-->
-1. Animal name: juandedios Animal age: 36 Animal type: Saber-toothed cat Animal priority 728983 DL-->
-2. Animal name: dametrius Animal age: 4 Animal type: Fruit bat Animal priority 401189 DL-->
-3. Animal name: janhvi Animal age: 14 Animal type: Sailfish Animal priority 579972 DL-->
-4. Animal name: zaiyden Animal age: 23 Animal type: Possum Animal priority 419228 DL-->
-5. Animal name: henley Animal age: 23 Animal type: Rhinoceros Animal priority 378598 DL-->
-6. Animal name: gavin Animal age: 23 Animal type: Clam Animal priority 579459 DL-->
-7. Animal name: mel Animal age: 17 Animal type: Sawfish Animal priority 634935 DL-->
-8. Animal name: rachelle Animal age: 38 Animal type: Wallaby Animal priority 858942 DL-->
-9. Animal name: gagan Animal age: 39 Animal type: Prairie dog Animal priority 391061 DL-->
+0. Animal name: kavani Animal age: 24 Animal type: Ocelot Animal priority 833840 DL-->
+1. Animal name: stephone Animal age: 20 Animal type: English pointer Animal priority 152887 DL-->
+2. Animal name: winslow Animal age: 9 Animal type: Bandicoot Animal priority 204348 DL-->
+3. Animal name: gennaro Animal age: 10 Animal type: Dinosaur Animal priority 449731 DL-->
+4. Animal name: azrael Animal age: 45 Animal type: Cricket Animal priority 862901 DL-->
+5. Animal name: zuhaib Animal age: 18 Animal type: Booby Animal priority 395679 DL-->
+6. Animal name: bexleigh Animal age: 49 Animal type: Antlion Animal priority 948389 DL-->
+7. Animal name: eliya Animal age: 22 Animal type: Porpoise Animal priority 40639 DL-->
+8. Animal name: tiahna Animal age: 33 Animal type: Tarantula Animal priority 141815 DL-->
+9. Animal name: daila Animal age: 48 Animal type: Polar bear Animal priority 756764 DL-->
 The end of the DoubleList of size  10
 
 
 
 -----------Printing a Tree-------------------------------------
-The height of the Tree is: 5
+The height of the Tree is: 7
 
-The tree has : 9 nodes
-Log2 of node count: 3.16993
+The tree has : 10 nodes
+Log2 of node count: 3.32193
 
-               59               
-       23               69       
-   2               68       76   
-                 61           93 
-                            88  
+                                                               40                                                               
+                               25                                                               48                               
+               23                                                                                               90               
+                                                                                                       64               92       
+                                                                                                   59                           
+                                                                                                 57                             
+                                                                                                  58                            
 -----------Printing a Tree-------------------------------------
-The height of the Tree is: 5
+The height of the Tree is: 7
 
-The tree has : 9 nodes
-Log2 of node count: 3.16993
+The tree has : 10 nodes
+Log2 of node count: 3.32193
 
-               59               
-       23               69       
-   2               68       76   
-                 61           93 
-                            88  
+                                                               40                                                               
+                               25                                                               48                               
+               23                                                                                               90               
+                                                                                                       64               92       
+                                                                                                   59                           
+                                                                                                 57                             
+                                                                                                  58                            
