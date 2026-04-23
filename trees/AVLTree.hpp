@@ -191,7 +191,11 @@ class AVLTree : public BinaryTree<T> {
     int height() override { 
       if(root == nullptr) return 0;
       
-      return root->getHeight();
+      return root->getHeight() ;
+    }
+
+    int printHeight() override {
+      return height() + 1;
     }
 
     int size() override {

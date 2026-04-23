@@ -2,9 +2,11 @@
 #include "../linear/linearTest.hpp"
 #include "BSTree.hpp"
 #include "AVLTree.hpp"
+#include "TreeTraversal.hpp"
 #include <cmath>
 #include <vector>
 #include<string>
+#include<bits/stdc++.h>
 
 using std::vector;
 using std::string;
@@ -37,47 +39,61 @@ void removeData(BinaryTree<T>& _bst, const T& _data){
 }
 
 template<typename T>
-void preOrder(BSTree<T>& _bst) {
+void preOrder(BinaryTree<T>& _bst) {
 
     std::cout<<"----------Testing the pre order traversal---------------"<<std::endl;
-    for (auto it = _bst.begin(BSTree<T>::traversalType::PREORDER); it != _bst.end(BSTree<T>::traversalType::PREORDER); ++it) {
-        std::cout << *it << std::endl;
-    }
+ 
+     TreeTraversal<T> explorer(&_bst);
+     vector<T> result = explorer.traversePreOrder();
+     for(auto & i : result) {
+        std::cout<< i <<std::endl;
+     }
+
     treeHeight(_bst);
 }
 
 template<typename T>
-void postOrder(BSTree<T>& _bst) {
+void postOrder(BinaryTree<T>& _bst) {
     std::cout<<"----------Testing the post order traversal---------------"<<std::endl;
-    for (auto it = _bst.begin(BSTree<T>::traversalType::POSTORDER); it != _bst.end(BSTree<T>::traversalType::PREORDER); ++it) {
-        std::cout << *it << std::endl;
-    }
+   
+     TreeTraversal<T> explorer(& _bst);
+     vector<T> result = explorer.traversePostOrder();
+     for(auto & i : result) {
+        std::cout<< i <<std::endl;
+     }
+
     treeHeight(_bst);
 
 }
 
 template<typename T>
-void inOrder(BSTree<T>& _bst) {
+void inOrder(BinaryTree<T>& _bst) {
     std::cout<<"----------Testing the in order traversal---------------"<<std::endl;
-    for (auto it = _bst.begin(BSTree<T>::traversalType::INORDER); it != _bst.end(BSTree<T>::traversalType::PREORDER); ++it) {
-        std::cout << *it << std::endl;
-    }
-
+    
+    TreeTraversal<T> explorer(& _bst);
+     vector<T> result = explorer.traverseInOrder();
+     for(auto & i : result) {
+        std::cout<< i <<std::endl;
+     }
     treeHeight(_bst);
 }
 
 template<typename T>
-void levelOrder(BSTree<T>& _bst) {
+void levelOrder(BinaryTree<T>& _bst) {
     std::cout<<"----------Testing the level order traversal---------------"<<std::endl;
-    for (auto it = _bst.begin(BSTree<T>::traversalType::LEVELORDER); it != _bst.end(BSTree<T>::traversalType::PREORDER); ++it) {
-        std::cout << *it << std::endl;
-    }
+
+     TreeTraversal<T> explorer(& _bst);
+     vector<T> result = explorer.traverseLevelOrder();
+     for(auto & i : result) {
+        std::cout<< i <<std::endl;
+     }
+
     treeHeight(_bst);
 }
 
 template<typename T>
 void printTree(BinaryTree<T>& _bst) {
-    unsigned int h = _bst.height();
+    unsigned int h = _bst.printHeight();
     unsigned int width = (1 << h) - 1; // 2^h - 1
     std::cout<<"-----------Printing a Tree-------------------------------------"<<std::endl;    
     treeHeight(_bst);
@@ -129,9 +145,9 @@ void testTree() {
 
     testCopy(copyTree, *intTree);
 
-    for(int i = 0; i < test->getSize()/10; i++) {
-        intTree->insert(test->randomNumber(0,100));
-        avlTree1->insert(test->randomNumber(0,100));
+    for(int i = 0; i < test->getSize()/5; i++) {
+        intTree->insert(test->randomNumber(1,100));
+        avlTree1->insert(test->randomNumber(1,100));
     }
 
 
@@ -151,7 +167,14 @@ void testTree() {
     printTree(*intTree);
     copyTree = *intTree;
     printTree(copyTree);
+    preOrder(*intTree);
+    printTree(*avlTree1);
+    preOrder(*avlTree1);
+    postOrder(*avlTree1);
+    inOrder(*avlTree1);
+    levelOrder(*avlTree1);
     
+    delete avlTree1;
     delete test;
     delete testQueue;
     delete tree;

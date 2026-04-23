@@ -14,64 +14,64 @@ The tree has : 10 nodes
 Log2 of node count: 3.32193
 
 ----------Testing the pre order traversal---------------
-Animal name: azrael Animal age: 45 Animal type: Cricket Animal priority 862901
-Animal name: kavani Animal age: 24 Animal type: Ocelot Animal priority 833840
-Animal name: stephone Animal age: 20 Animal type: English pointer Animal priority 152887
-Animal name: eliya Animal age: 22 Animal type: Porpoise Animal priority 40639
-Animal name: tiahna Animal age: 33 Animal type: Tarantula Animal priority 141815
-Animal name: winslow Animal age: 9 Animal type: Bandicoot Animal priority 204348
-Animal name: gennaro Animal age: 10 Animal type: Dinosaur Animal priority 449731
-Animal name: zuhaib Animal age: 18 Animal type: Booby Animal priority 395679
-Animal name: daila Animal age: 48 Animal type: Polar bear Animal priority 756764
-Animal name: bexleigh Animal age: 49 Animal type: Antlion Animal priority 948389
+Animal name: brekken Animal age: 19 Animal type: Panthera hybrid Animal priority 717861
+Animal name: samarie Animal age: 47 Animal type: Opossum Animal priority 355963
+Animal name: marcela Animal age: 22 Animal type: Tahr Animal priority 139513
+Animal name: roxas Animal age: 6 Animal type: Seahorse Animal priority 88340
+Animal name: niel Animal age: 40 Animal type: Dingo Animal priority 319262
+Animal name: yanni Animal age: 4 Animal type: Ray (Rajiformes) Animal priority 180442
+Animal name: isaias Animal age: 37 Animal type: Dove Animal priority 210531
+Animal name: jaquavius Animal age: 17 Animal type: Jay Animal priority 599489
+Animal name: koah Animal age: 19 Animal type: Pony Animal priority 513567
+Animal name: johncarlo Animal age: 15 Animal type: Aphid Animal priority 756129
 The height of the Tree is: 6
 
 The tree has : 10 nodes
 Log2 of node count: 3.32193
 
 ----------Testing the post order traversal---------------
-Animal name: tiahna Animal age: 33 Animal type: Tarantula Animal priority 141815
-Animal name: eliya Animal age: 22 Animal type: Porpoise Animal priority 40639
-Animal name: zuhaib Animal age: 18 Animal type: Booby Animal priority 395679
-Animal name: daila Animal age: 48 Animal type: Polar bear Animal priority 756764
-Animal name: gennaro Animal age: 10 Animal type: Dinosaur Animal priority 449731
-Animal name: winslow Animal age: 9 Animal type: Bandicoot Animal priority 204348
-Animal name: stephone Animal age: 20 Animal type: English pointer Animal priority 152887
-Animal name: kavani Animal age: 24 Animal type: Ocelot Animal priority 833840
-Animal name: bexleigh Animal age: 49 Animal type: Antlion Animal priority 948389
-Animal name: azrael Animal age: 45 Animal type: Cricket Animal priority 862901
+Animal name: roxas Animal age: 6 Animal type: Seahorse Animal priority 88340
+Animal name: isaias Animal age: 37 Animal type: Dove Animal priority 210531
+Animal name: yanni Animal age: 4 Animal type: Ray (Rajiformes) Animal priority 180442
+Animal name: niel Animal age: 40 Animal type: Dingo Animal priority 319262
+Animal name: marcela Animal age: 22 Animal type: Tahr Animal priority 139513
+Animal name: koah Animal age: 19 Animal type: Pony Animal priority 513567
+Animal name: jaquavius Animal age: 17 Animal type: Jay Animal priority 599489
+Animal name: samarie Animal age: 47 Animal type: Opossum Animal priority 355963
+Animal name: johncarlo Animal age: 15 Animal type: Aphid Animal priority 756129
+Animal name: brekken Animal age: 19 Animal type: Panthera hybrid Animal priority 717861
 The height of the Tree is: 6
 
 The tree has : 10 nodes
 Log2 of node count: 3.32193
 
 ----------Testing the in order traversal---------------
-Animal name: eliya Animal age: 22 Animal type: Porpoise Animal priority 40639
-Animal name: tiahna Animal age: 33 Animal type: Tarantula Animal priority 141815
-Animal name: stephone Animal age: 20 Animal type: English pointer Animal priority 152887
-Animal name: winslow Animal age: 9 Animal type: Bandicoot Animal priority 204348
-Animal name: zuhaib Animal age: 18 Animal type: Booby Animal priority 395679
-Animal name: gennaro Animal age: 10 Animal type: Dinosaur Animal priority 449731
-Animal name: daila Animal age: 48 Animal type: Polar bear Animal priority 756764
-Animal name: kavani Animal age: 24 Animal type: Ocelot Animal priority 833840
-Animal name: azrael Animal age: 45 Animal type: Cricket Animal priority 862901
-Animal name: bexleigh Animal age: 49 Animal type: Antlion Animal priority 948389
+Animal name: roxas Animal age: 6 Animal type: Seahorse Animal priority 88340
+Animal name: marcela Animal age: 22 Animal type: Tahr Animal priority 139513
+Animal name: yanni Animal age: 4 Animal type: Ray (Rajiformes) Animal priority 180442
+Animal name: isaias Animal age: 37 Animal type: Dove Animal priority 210531
+Animal name: niel Animal age: 40 Animal type: Dingo Animal priority 319262
+Animal name: samarie Animal age: 47 Animal type: Opossum Animal priority 355963
+Animal name: koah Animal age: 19 Animal type: Pony Animal priority 513567
+Animal name: jaquavius Animal age: 17 Animal type: Jay Animal priority 599489
+Animal name: brekken Animal age: 19 Animal type: Panthera hybrid Animal priority 717861
+Animal name: johncarlo Animal age: 15 Animal type: Aphid Animal priority 756129
 The height of the Tree is: 6
 
 The tree has : 10 nodes
 Log2 of node count: 3.32193
 
 ----------Testing the level order traversal---------------
-Animal name: azrael Animal age: 45 Animal type: Cricket Animal priority 862901
-Animal name: bexleigh Animal age: 49 Animal type: Antlion Animal priority 948389
-Animal name: kavani Animal age: 24 Animal type: Ocelot Animal priority 833840
-Animal name: stephone Animal age: 20 Animal type: English pointer Animal priority 152887
-Animal name: winslow Animal age: 9 Animal type: Bandicoot Animal priority 204348
-Animal name: eliya Animal age: 22 Animal type: Porpoise Animal priority 40639
-Animal name: gennaro Animal age: 10 Animal type: Dinosaur Animal priority 449731
-Animal name: tiahna Animal age: 33 Animal type: Tarantula Animal priority 141815
-Animal name: daila Animal age: 48 Animal type: Polar bear Animal priority 756764
-Animal name: zuhaib Animal age: 18 Animal type: Booby Animal priority 395679
+Animal name: brekken Animal age: 19 Animal type: Panthera hybrid Animal priority 717861
+Animal name: samarie Animal age: 47 Animal type: Opossum Animal priority 355963
+Animal name: johncarlo Animal age: 15 Animal type: Aphid Animal priority 756129
+Animal name: marcela Animal age: 22 Animal type: Tahr Animal priority 139513
+Animal name: jaquavius Animal age: 17 Animal type: Jay Animal priority 599489
+Animal name: roxas Animal age: 6 Animal type: Seahorse Animal priority 88340
+Animal name: niel Animal age: 40 Animal type: Dingo Animal priority 319262
+Animal name: koah Animal age: 19 Animal type: Pony Animal priority 513567
+Animal name: yanni Animal age: 4 Animal type: Ray (Rajiformes) Animal priority 180442
+Animal name: isaias Animal age: 37 Animal type: Dove Animal priority 210531
 The height of the Tree is: 6
 
 The tree has : 10 nodes
@@ -81,43 +81,181 @@ Log2 of node count: 3.32193
 The Queue size is 10
 
 This is a queue of size 10
-0. Animal name: kavani Animal age: 24 Animal type: Ocelot Animal priority 833840 DL-->
-1. Animal name: stephone Animal age: 20 Animal type: English pointer Animal priority 152887 DL-->
-2. Animal name: winslow Animal age: 9 Animal type: Bandicoot Animal priority 204348 DL-->
-3. Animal name: gennaro Animal age: 10 Animal type: Dinosaur Animal priority 449731 DL-->
-4. Animal name: azrael Animal age: 45 Animal type: Cricket Animal priority 862901 DL-->
-5. Animal name: zuhaib Animal age: 18 Animal type: Booby Animal priority 395679 DL-->
-6. Animal name: bexleigh Animal age: 49 Animal type: Antlion Animal priority 948389 DL-->
-7. Animal name: eliya Animal age: 22 Animal type: Porpoise Animal priority 40639 DL-->
-8. Animal name: tiahna Animal age: 33 Animal type: Tarantula Animal priority 141815 DL-->
-9. Animal name: daila Animal age: 48 Animal type: Polar bear Animal priority 756764 DL-->
+0. Animal name: johncarlo Animal age: 15 Animal type: Aphid Animal priority 756129 DL-->
+1. Animal name: samarie Animal age: 47 Animal type: Opossum Animal priority 355963 DL-->
+2. Animal name: marcela Animal age: 22 Animal type: Tahr Animal priority 139513 DL-->
+3. Animal name: jaquavius Animal age: 17 Animal type: Jay Animal priority 599489 DL-->
+4. Animal name: niel Animal age: 40 Animal type: Dingo Animal priority 319262 DL-->
+5. Animal name: yanni Animal age: 4 Animal type: Ray (Rajiformes) Animal priority 180442 DL-->
+6. Animal name: roxas Animal age: 6 Animal type: Seahorse Animal priority 88340 DL-->
+7. Animal name: brekken Animal age: 19 Animal type: Panthera hybrid Animal priority 717861 DL-->
+8. Animal name: isaias Animal age: 37 Animal type: Dove Animal priority 210531 DL-->
+9. Animal name: koah Animal age: 19 Animal type: Pony Animal priority 513567 DL-->
 The end of the DoubleList of size  10
 
 
 
 -----------Printing a Tree-------------------------------------
-The height of the Tree is: 7
+The height of the Tree is: 8
 
-The tree has : 10 nodes
-Log2 of node count: 3.32193
+The tree has : 19 nodes
+Log2 of node count: 4.24793
 
-                                                               40                                                               
-                               25                                                               48                               
-               23                                                                                               90               
-                                                                                                       64               92       
-                                                                                                   59                           
-                                                                                                 57                             
-                                                                                                  58                            
+                                                                                                                               83                                                                                                                               
+                                                               75                                                                                                                               96                                                               
+                               31                                                               80                                                               92                                                                                               
+               17                               38                                                                                                                                                                                                               
+       16               28                               46                                                                                                                                                                                                       
+   11               21                               41       57                                                                                                                                                                                                   
+ 8               20                                           71                                                                                                                                                                                                 
+  9                                                                                                                                                                                                                                                            
 -----------Printing a Tree-------------------------------------
-The height of the Tree is: 7
+The height of the Tree is: 8
 
-The tree has : 10 nodes
-Log2 of node count: 3.32193
+The tree has : 19 nodes
+Log2 of node count: 4.24793
 
-                                                               40                                                               
-                               25                                                               48                               
-               23                                                                                               90               
-                                                                                                       64               92       
-                                                                                                   59                           
-                                                                                                 57                             
-                                                                                                  58                            
+                                                                                                                               83                                                                                                                               
+                                                               75                                                                                                                               96                                                               
+                               31                                                               80                                                               92                                                                                               
+               17                               38                                                                                                                                                                                                               
+       16               28                               46                                                                                                                                                                                                       
+   11               21                               41       57                                                                                                                                                                                                   
+ 8               20                                           71                                                                                                                                                                                                 
+  9                                                                                                                                                                                                                                                            
+----------Testing the pre order traversal---------------
+83
+75
+31
+17
+16
+11
+8
+9
+28
+21
+20
+38
+46
+41
+57
+71
+80
+96
+92
+The height of the Tree is: 8
+
+The tree has : 19 nodes
+Log2 of node count: 4.24793
+
+-----------Printing a Tree-------------------------------------
+The height of the Tree is: 4
+
+The tree has : 19 nodes
+Log2 of node count: 4.24793
+
+               53               
+       15               67       
+   10       33       58       88   
+ 7       24   37       63   77   100 
+        21 32 35 42         70 87    
+----------Testing the pre order traversal---------------
+53
+15
+10
+7
+33
+24
+21
+32
+37
+35
+42
+67
+58
+63
+88
+77
+70
+87
+100
+The height of the Tree is: 4
+
+The tree has : 19 nodes
+Log2 of node count: 4.24793
+
+----------Testing the post order traversal---------------
+7
+10
+21
+32
+24
+35
+42
+37
+33
+15
+63
+58
+70
+87
+77
+100
+88
+67
+53
+The height of the Tree is: 4
+
+The tree has : 19 nodes
+Log2 of node count: 4.24793
+
+----------Testing the in order traversal---------------
+7
+10
+15
+21
+24
+32
+33
+35
+37
+42
+53
+58
+63
+67
+70
+77
+87
+88
+100
+The height of the Tree is: 4
+
+The tree has : 19 nodes
+Log2 of node count: 4.24793
+
+----------Testing the level order traversal---------------
+53
+15
+67
+10
+33
+58
+88
+7
+24
+37
+63
+77
+100
+21
+32
+35
+42
+70
+87
+The height of the Tree is: 4
+
+The tree has : 19 nodes
+Log2 of node count: 4.24793
+

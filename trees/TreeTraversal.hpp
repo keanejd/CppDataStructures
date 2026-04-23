@@ -1,12 +1,12 @@
-#pragma namespace  
+#pragma once
 #include <stack>
 #include <queue>
 #include <vector>
 #include "BinaryTree.hpp"
 #include "BinaryNode.hpp"
 
-using std::stack;
-using std::queue;
+//using std::stack;
+//using std::queue;
 using std::vector;
 
 template<typename T>
@@ -17,9 +17,9 @@ class TreeTraversal {
   public:
     explicit TreeTraversal(BinaryTree<T> * _tree) : tree(_tree) {}
 
-    vector<T> inOrder() const {
+    vector<T> traverseInOrder() const {
       vector<T> result;
-      stack<Node *> s;
+      std::stack<Node *> s;
       Node * curr = tree->getRoot();
       while(curr != nullptr || !s.empty()) {
         while(curr != nullptr) { 
@@ -34,10 +34,10 @@ class TreeTraversal {
       return result;
     }
 
-    vector<T> preOrder() const {
+    vector<T> traversePreOrder() const {
       vector<T> result;
       if(tree->isEmpty()) return result;
-      stack<Node *> s;
+      std::stack<Node *> s;
       s.push(tree->getRoot());
       while(!s.empty()) {
         Node * node = s.top();
@@ -49,10 +49,10 @@ class TreeTraversal {
       return result;
     }
 
-    vector<T> postOrder() const {
+    vector<T> traversePostOrder() const {
       vector<T> result;
       if(tree->isEmpty()) return result;
-      stack<Node*> s1, s2;
+      std::stack<Node*> s1, s2;
       s1.push(tree->getRoot());
       while(!s1.empty()) {
         Node * node = s1.top();
@@ -72,10 +72,10 @@ class TreeTraversal {
       return result;
     }
 
-    vector<T> levelOrder() const {
+    vector<T> traverseLevelOrder() const {
       vector<T> result;
       if(tree->isEmpty()) return result;
-      queue<Node *> q;
+      std::queue<Node *> q;
       q.push(tree->getRoot());
       while(!q.empty()) {
         Node * node = q.front();
@@ -88,5 +88,4 @@ class TreeTraversal {
       }
       return result;
     }
-
 };

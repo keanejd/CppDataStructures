@@ -12,5 +12,6 @@ class BinaryTree {
     virtual int height() = 0;
     virtual int size() = 0;
     virtual bool isEmpty() = 0;
+    virtual int  printHeight() = 0;
     virtual BinaryNode<T> * getRoot() const = 0;
 };
